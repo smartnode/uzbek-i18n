@@ -1,2 +1,3 @@
 # i18n-uzbek
-Translating Software into Uzbek
+This repository contains uzbek language pack for various sofware. 
+- Wordpress
