@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the 4.5.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-04-24 19:22+0900\n"
+"PO-Revision-Date: 2016-04-24 23:28+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -116,11 +116,11 @@ msgstr ""
 
 #: wp-includes/user.php:200
 msgid "<strong>ERROR</strong>: The email field is empty."
-msgstr ""
+msgstr "<strong>ХАТО</strong>: Электрон почта киритилмаган."
 
 #: wp-includes/user.php:218
 msgid "<strong>ERROR</strong>: Invalid email address."
-msgstr ""
+msgstr "<strong>ХАТО</strong>: Номақбул электрон почта манзили."
 
 #. translators: %s: email address
 #: wp-includes/user.php:236
@@ -199,7 +199,7 @@ msgstr "Ҳомаки"
 #: wp-includes/post.php:134
 msgctxt "post status"
 msgid "Pending"
-msgstr ""
+msgstr "Текширувда"
 
 #: wp-includes/post.php:141
 msgctxt "post status"
@@ -222,7 +222,7 @@ msgstr ""
 
 #: wp-includes/functions.php:5042
 msgid "Close dialog"
-msgstr ""
+msgstr "Мулоқотни ёпиш"
 
 #: wp-includes/functions.wp-scripts.php:110
 msgid "Do not pass script tags to wp_add_inline_script()."
@@ -235,39 +235,39 @@ msgstr ""
 #. translators: %s: document.write()
 #: wp-includes/customize/class-wp-customize-selective-refresh.php:188
 msgid "%s is forbidden"
-msgstr ""
+msgstr "%s тақиқланган"
 
 #: wp-includes/class-wp-customize-manager.php:1972
 #: wp-includes/class-wp-customize-manager.php:1977
 msgid "Select logo"
-msgstr ""
+msgstr "Логотипни танлаш"
 
 #: wp-includes/class-wp-customize-manager.php:1973
 msgid "Change logo"
-msgstr ""
+msgstr "Логотипни ўзгартириш"
 
 #: wp-includes/comment.php:235
 msgctxt "comment status"
 msgid "Approved"
-msgstr ""
+msgstr "Тасдиқланган"
 
 #: wp-includes/comment.php:236
 msgctxt "comment status"
 msgid "Spam"
-msgstr ""
+msgstr "Қалбаки"
 
 #: wp-includes/comment.php:237
 msgctxt "comment status"
 msgid "Trash"
-msgstr ""
+msgstr "Ўчириш"
 
 #: wp-includes/comment.php:2890
 msgid "<strong>ERROR</strong>: your name is too long."
-msgstr ""
+msgstr "<strong>ХАТО</strong>: исмингиз жуда узун."
 
 #: wp-includes/comment.php:2894
 msgid "<strong>ERROR</strong>: your email address is too long."
-msgstr ""
+msgstr "<strong>ХАТО</strong>: электрон почта манзилингиз жуд узун."
 
 #: wp-includes/comment.php:2898
 msgid "<strong>ERROR</strong>: your url is too long."
@@ -279,7 +279,7 @@ msgstr ""
 
 #: wp-includes/class-wp-customize-manager.php:1964
 msgid "Logo"
-msgstr ""
+msgstr "Логотип"
 
 #: wp-includes/class-wp-editor.php:1046
 msgid "Paste URL or type to search"
@@ -666,7 +666,7 @@ msgstr ""
 
 #: wp-includes/user.php:140
 msgid "<strong>ERROR</strong>: Invalid username."
-msgstr "<strong>XATO</strong>: Foydalanuvchi nomi noto'g'ri."
+msgstr "<strong>XATO</strong>: Номақбул фойдаланувчи номи."
 
 #. translators: 1: function name, 2: WordPress version number
 #: wp-includes/rest-api.php:356 wp-includes/rest-api.php:377
@@ -920,7 +920,7 @@ msgstr "Янгироқ шарҳлар"
 
 #: wp-includes/general-template.php:2040
 msgid "Posts published on %s"
-msgstr ""
+msgstr "%sда чоп этилган мақолалар"
 
 #: wp-includes/link-template.php:2787
 msgid "Older comments"
@@ -1027,7 +1027,7 @@ msgstr ""
 
 #: wp-includes/class-wp-customize-manager.php:414
 msgid "The requested theme does not exist."
-msgstr "Сўралган тема мавжуд эмас."
+msgstr "Сўралган шаблон мавжуд эмас."
 
 #: wp-includes/class-wp-customize-nav-menus.php:764
 msgid "Clear Results"
@@ -1183,57 +1183,57 @@ msgstr "Quyidagi o'zidan keyin bo'sh joy bilan keladigan format ko'rsatkichlarid
 
 #: wp-includes/wp-db.php:1337 wp-includes/wp-db.php:1354
 msgid "WordPress database error:"
-msgstr "WordPress ma'lumotlar bazasida xatolik:"
+msgstr "WordPress маълумот базасида хатолик:"
 
 #: wp-login.php:501
 msgid "Your password reset link appears to be invalid. Please request a new link below."
-msgstr "Parolingizni tiklash linkida xatolik borga o'xshaydi. Iltimos, quyida yangi link uchun so'rov jo'nating."
+msgstr "Паролингизни тиклаш боғланишида хатолик борга ўхшайди. Илтимос, қуйида янги боғланиш учун сўров юборинг."
 
 #: wp-login.php:503
 msgid "Your password reset link has expired. Please request a new link below."
-msgstr "Parolingizni tiklash linki eskirgan. Iltimos, quyida yangi link uchun so'rov jo'nating."
+msgstr "Паролингизни тиклаш боғланиши эскирган. Илтимос, қуйида янги боғланиш учун сўров юборинг."
 
 #: wp-includes/ms-functions.php:448 wp-includes/user.php:1413
 msgid "Username may not be longer than 60 characters."
-msgstr "Foydalanuvchi ismi 60ta belgidan oshmasligi kerak."
+msgstr "Фойдаланувчи номи 60 белгидан ошмаслиги керак."
 
 #: wp-includes/pluggable.php:1741
 msgid "To set your password, visit the following address:"
-msgstr "Yangi parol o'rnatish uchun quyidagi manzilga o'ting:"
+msgstr "Паролни янгилаш учун қуйидаги манзилга ўтинг:"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-control.php:51
 msgid "Add or remove menu items"
-msgstr "Menyu qismlarini qo'shish yoki o'chirish"
+msgstr "Меню бандлари қўшиш ёки ўчириш"
 
 #: wp-includes/class-wp-customize-nav-menus.php:393
 #: wp-includes/customize/class-wp-customize-nav-menu-control.php:54
 msgid "Reorder menu items"
-msgstr "Menu yozuvlarini qayta tartiblash"
+msgstr "Меню бандларини тартиблаш"
 
 #: wp-includes/class-wp-customize-nav-menus.php:394
 #: wp-includes/class-wp-customize-widgets.php:736
 msgid "Close reorder mode"
-msgstr "Qayta tartiblash holatini yopish"
+msgstr "Тартиблаш  ҳолатини ёпиш"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-control.php:58
 msgid "When in reorder mode, additional controls to reorder menu items will be available in the items list above."
-msgstr "Qayta tartiblash rejimida bo'lganda yuqoridagi joyda menyu qismlarini qayta tartiblash uchun qo'shimcha sozlanmalar ko'rsatiladi."
+msgstr "Тартиблаш ҳолатида, юқорида меню бандларини тартиблаш учун қўшимча созланмалар кўрсатилади."
 
 #: wp-includes/class-wp-customize-nav-menus.php:369
 #: wp-includes/customize/class-wp-customize-nav-menu-setting.php:440
 msgctxt "Missing menu name."
 msgid "(unnamed)"
-msgstr "(nomsiz)"
+msgstr "(номсиз)"
 
 #: wp-includes/class-wp-customize-nav-menus.php:391
 #: wp-includes/class-wp-customize-widgets.php:733
 msgid "Reorder mode enabled"
-msgstr "Qayta tartiblash holati faollashtirildi"
+msgstr "Тартиблаш ҳолати фаол"
 
 #: wp-includes/class-wp-customize-nav-menus.php:392
 #: wp-includes/class-wp-customize-widgets.php:734
 msgid "Reorder mode closed"
-msgstr "Qayta tartiblash holati yopildi"
+msgstr "Тартиблаш ҳолати ёпиқ"
 
 #: wp-includes/class-wp-customize-nav-menus.php:499
 msgid "Menus can be displayed in locations defined by your theme or in <a href=\"%s\">widget areas</a> by adding a &#8220;Custom Menu&#8221; widget."
@@ -1246,12 +1246,12 @@ msgstr "Menyular shabloningizda belgilangan joylarda ko'rsatilishi mumkin."
 #: wp-includes/customize/class-wp-customize-themes-section.php:43
 #: wp-includes/customize/class-wp-customize-themes-section.php:62
 msgid "Active theme"
-msgstr "Joriy shablon"
+msgstr "Жорий шаблон"
 
 #: wp-includes/customize/class-wp-customize-themes-section.php:45
 #: wp-includes/customize/class-wp-customize-themes-section.php:64
 msgid "Previewing theme"
-msgstr "Shablonni ko'rish"
+msgstr "Шаблонни кўриш"
 
 #. translators: 1: original menu name, 2: duplicate count
 #: wp-includes/customize/class-wp-customize-nav-menu-setting.php:522
@@ -1261,7 +1261,7 @@ msgstr "%1$s (%2$d)"
 #: wp-includes/class-wp-editor.php:838
 msgctxt "HTML tag"
 msgid "Preformatted"
-msgstr "Formatlangan"
+msgstr "Бичимланган"
 
 #. translators: 1: PHP class name, 2: version number, 3: __construct() method
 #: wp-includes/functions.php:3721
@@ -1324,17 +1324,17 @@ msgid ""
 "All at ###SITENAME###\n"
 "###SITEURL###"
 msgstr ""
-"Salom ###USERNAME###,\n"
+"Ҳурматли ###USERNAME###,\n"
 "\n"
-"Bu xabarnoma Sizing ###SITENAME### saytidagi parolingiz o'zgarganligini tasdiqlaydi.\n"
+"Бу хабарнома Сизнинг  ###SITENAME### сайтидаги паролингиз ўзгарганлигини тасдиқлайди.\n"
 "\n"
-"Agar Siz parolni o'zgartirmagan bo'lsangiz, quyidagi manzil orqali sayt administratori bilan bog'laning:\n"
+"Агар Сиз паролни ўзгартирмаган бўлсангиз, қуйидаги манзил орқали сайт маъмуриятига мурожаат қилинг:\n"
 "###ADMIN_EMAIL###\n"
 "\n"
-"Ushbu xabarnoma ###EMAIL### manziliga yuborildi\n"
+"Ушбу хабарнома  ###EMAIL### манзилига юборилди\n"
 "\n"
-"Xurmat bilan,\n"
-"###SITENAME### sayti boshqaruvi\n"
+"Ҳурмат билан,\n"
+"###SITENAME### сайт маъмурияти\n"
 "###SITEURL###"
 
 #: wp-includes/user.php:1785
@@ -1343,7 +1343,7 @@ msgstr "[%s] Parol o'zgarganligi haqida xabarnoma"
 
 #: wp-includes/script-loader.php:104
 msgid "Inserted text"
-msgstr "Kiritilgan matn"
+msgstr "Киритилган матн"
 
 #: wp-includes/script-loader.php:105
 msgid "Close inserted text tag"
@@ -1380,7 +1380,7 @@ msgstr ""
 #. translators: Error string for a failed update
 #: wp-includes/script-loader.php:600
 msgid "Update Failed: %s"
-msgstr "Yangilash amalga oshmadi: %s"
+msgstr "Янгиланиш амалга ошмади: %s"
 
 #. translators: %s: shortcode tag
 #: wp-includes/shortcodes.php:319
@@ -1393,36 +1393,36 @@ msgstr "Калит сўзлар йўқ "
 
 #: wp-includes/script-loader.php:96
 msgid "Close bold tag"
-msgstr "Bold (qalin) tagini yopish"
+msgstr "Қалин тегини ёпиш"
 
 #: wp-includes/script-loader.php:98
 msgid "Close italic tag"
-msgstr "Egri yozuv tegini yopish"
+msgstr "Эгри тегини ёпиш"
 
 #: wp-includes/script-loader.php:101
 msgid "Close blockquote tag"
-msgstr "Iqtibos tegini yopish"
+msgstr "Иқтибос тегини ёпиш"
 
 #: wp-includes/script-loader.php:102
 msgid "Deleted text (strikethrough)"
-msgstr "O'chirilgan matn (ustidan chiziladi)"
+msgstr "Ўчирилган матн (устидан чизилади)"
 
 #: wp-includes/script-loader.php:103
 msgid "Close deleted text tag"
-msgstr "O'chirilgan matn tegini yopish"
+msgstr "Ўчирилган матн тегини ёпиш"
 
 #: wp-includes/media-template.php:1160
 msgid "Remove poster image"
-msgstr "Poster rasmini o'chirish"
+msgstr "Плакат расмини ўчириш"
 
 #: wp-includes/media-template.php:1192
 msgctxt "media"
 msgid "Remove video track"
-msgstr "Video faylni o'chirish"
+msgstr "Видео файлни ўчириш"
 
 #: wp-includes/post.php:1464
 msgid "Remove featured image"
-msgstr "Maxsus rasmni o'chirish"
+msgstr "Танланган расмни ўчириш"
 
 #: wp-includes/formatting.php:125
 msgctxt "Comma-separated list of replacement words in your language"
@@ -6295,7 +6295,7 @@ msgstr "%1$s WordPressning %2$s versiyasidan beri <strong>eskirgan</strong> va o
 
 #: wp-includes/functions.php:4404
 msgid "Select a city"
-msgstr "Shahar tanlash"
+msgstr "Шаҳарни танланг"
 
 #: wp-includes/functions.php:4449 wp-includes/functions.php:4453
 msgid "UTC"
@@ -6361,7 +6361,7 @@ msgstr "%1$s %2$s obunasi"
 #. translators: 1: blog title, 2: separator (raquo)
 #: wp-includes/general-template.php:2562
 msgid "%1$s %2$s Comments Feed"
-msgstr "%1$s %2$s bildirilgan fikrlar obunasi"
+msgstr "%1$s %2$s шарҳлар тасмаси"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: post title
 #: wp-includes/general-template.php:2602
@@ -7514,7 +7514,7 @@ msgstr "Сайтлар"
 #: wp-includes/admin-bar.php:430 wp-includes/admin-bar.php:721
 #: wp-includes/customize/class-wp-customize-themes-section.php:56
 msgid "Themes"
-msgstr "Темалар"
+msgstr "Шаблонлар"
 
 #: wp-includes/admin-bar.php:392
 msgid "My Sites"
@@ -7568,7 +7568,7 @@ msgstr "Odatiy"
 
 #: wp-includes/script-loader.php:587
 msgid "Plugin:"
-msgstr ""
+msgstr "Плагин:"
 
 #: wp-includes/class-wp-editor.php:178
 msgid "Visual"
