@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the 4.5.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-04-29 22:40+0900\n"
+"PO-Revision-Date: 2016-05-02 20:00+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,7 +31,7 @@ msgstr "ltr"
 #. is .
 #: wp-includes/locale.php:203
 msgid "number_format_decimal_point"
-msgstr "number_format_decimal_point"
+msgstr ","
 
 #. translators: $thousands_sep argument for http://php.net/number_format,
 #. default is ,
@@ -59,11 +59,11 @@ msgstr "Расм мета маълумотини олиш учун %s талаб
 
 #: wp-includes/script-loader.php:588
 msgid "Plugin details"
-msgstr "Плагин изохи"
+msgstr "Плагин тафсилоти"
 
 #: wp-includes/customize/class-wp-customize-site-icon-control.php:67
 msgid "Browser interface preview"
-msgstr "Браузер ёрлиғи сифатида кўриш"
+msgstr "Браузер интерфейсида кўриш"
 
 #: wp-includes/media.php:3384
 msgid "No media files found."
@@ -72,11 +72,11 @@ msgstr "Медиа файл топилмади."
 #. translators: 1: post title, 2: site name
 #: wp-includes/embed.php:496
 msgid "&#8220;%1$s&#8221; &#8212; %2$s"
-msgstr "&#8220;%1$s&#8221; &#8212; %2$s"
+msgstr "«%1$s» &#8212; %2$s"
 
 #: wp-includes/script-loader.php:232
 msgid "%d results found. Use up and down arrow keys to navigate."
-msgstr "%dта натижа топилди. Кўриб чиқиш учун юқори ва пастга кўрсатгич тугмаларидан фойдаланинг. "
+msgstr "%dта натижа топилди. Кўриб чиқиш учун юқори ва пастга кўрсатгич тугмаларидан фойдаланинг."
 
 #: wp-includes/script-loader.php:229
 msgid "No search results."
@@ -102,17 +102,17 @@ msgstr "Тизимда %s. Профилни таҳрирлаш."
 #. is_subdomain_install()
 #: wp-includes/ms-default-constants.php:134
 msgid "The constant %1$s <strong>is deprecated</strong>. Use the boolean constant %2$s in %3$s to enable a subdomain configuration. Use %4$s to check whether a subdomain configuration is enabled."
-msgstr ""
+msgstr "Констант %1$s <strong>эскирган</strong>. Иккинчи даражали домейн ҳам ишлатиш учун %3$sда %2$s константидан фойдаланинг. Иккинчи даражали домейн ишлатилятганини текшириш учун %4$sда фойдаланинг."
 
 #. translators: 1: panel id, 2: link to 'customize_loaded_components' filter
 #. reference
 #: wp-includes/class-wp-customize-manager.php:1216
 msgid "Removing %1$s manually will cause PHP warnings. Use the %2$s filter instead."
-msgstr ""
+msgstr "%1$sни қўлда олиб ташлаш PHP огоҳлантиришини кўрсатади. %2$s филтрдан фойдаланинг."
 
 #: wp-includes/class-wp-editor.php:1072
 msgid "The next group of formatting shortcuts are applied as you type or when you insert them around plain text in the same paragraph. Press Escape or the Undo button to undo."
-msgstr ""
+msgstr "Қуйидаги бичимлаш ёрлиқ гуруҳи матн терганингизда ёки бир хил абцаздаги оддий матнни белгилаганингизда қўлланилади. Бекор қилиш учун Backspace ёки Escape тугмасини босинг."
 
 #: wp-includes/user.php:200
 msgid "<strong>ERROR</strong>: The email field is empty."
@@ -120,43 +120,43 @@ msgstr "<strong>ХАТО</strong>: Электрон почта киритилм�
 
 #: wp-includes/user.php:218
 msgid "<strong>ERROR</strong>: Invalid email address."
-msgstr "<strong>ХАТО</strong>: Номақбул электрон почта манзили."
+msgstr "<strong>ХАТО</strong>: Яроқсиз электрон почта манзили."
 
 #. translators: %s: email address
 #: wp-includes/user.php:236
 msgid "<strong>ERROR</strong>: The password you entered for the email address %s is incorrect."
-msgstr ""
+msgstr "<strong>ХАТО</strong>: Сиз  %s электрон манзили учун киритган парол нотўғри."
 
 #. translators: 1: display name, 2: user_login
 #: wp-includes/user.php:1072
 msgctxt "user dropdown"
 msgid "%1$s (%2$s)"
-msgstr ""
+msgstr "%1$s (%2$s)"
 
 #: wp-login.php:848
 msgid "Your session has expired. Please log in to continue where you left off."
-msgstr ""
+msgstr "Сизнинг сессиянгиз муддати тугаган. Илтимос, давом этиш учун тизимга қайта киринг."
 
 #: wp-includes/taxonomy.php:515
 msgid "Unregistering a built-in taxonomy is not allowed"
-msgstr ""
+msgstr "Бошланғич (ажралмас) таснифни ўчириш мумкин эмас"
 
 #: wp-includes/post.php:148
 msgctxt "post status"
 msgid "Trash"
-msgstr "Ўчириш"
+msgstr "Ахлат челакда"
 
 #: wp-includes/post.php:1219
 msgid "Unregistering a built-in post type is not allowed"
-msgstr ""
+msgstr "Бошланғич (ажралмас) мақало турини ўчириш мумкин эмас"
 
 #: wp-includes/rest-api.php:42
 msgid "Routes must be namespaced with plugin or theme name and version."
-msgstr ""
+msgstr "Йўналишлар плагин ёки шаблон номи ва версияси билан номфазо бўлиши керак."
 
 #: wp-includes/rest-api.php:45
 msgid "Route must be specified."
-msgstr ""
+msgstr "Йўналиш кўрсатилиши керак."
 
 #: wp-includes/script-loader.php:451
 msgid "(Untitled)"
@@ -164,17 +164,17 @@ msgstr "(Сарлавҳасиз)"
 
 #: wp-includes/script-loader.php:506
 msgid "Drag boxes here"
-msgstr ""
+msgstr "Блокларни бу ерга судранг"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: term name, 4: taxonomy
 #. singular name
 #: wp-includes/general-template.php:2608
 msgid "%1$s %2$s %3$s %4$s Feed"
-msgstr ""
+msgstr "%1$s %2$s %4$s таснифи %3$s мавзуси бўйича тасма"
 
 #: wp-includes/pluggable.php:534
 msgid "<strong>ERROR</strong>: Invalid username, email address or incorrect password."
-msgstr "<strong>Хато</strong>: Фойдаланувчи номи. электрон манзил ёки парол нотўғри."
+msgstr "<strong>ХАТО</strong>: Фойдаланувчи номи. электрон манзил ёки парол нотўғри."
 
 #: wp-includes/post-template.php:1536
 msgctxt "post password form"
@@ -218,19 +218,19 @@ msgstr "Логотипни танланг"
 #. 4: __construct() method
 #: wp-includes/functions.php:3717
 msgid "The called constructor method for %1$s in %2$s is <strong>deprecated</strong> since version %3$s! Use %4$s instead."
-msgstr ""
+msgstr "%3$s версиясидан бошлаб %2$sдаги %1$s деб номланган конструктор  усули <strong>эскирган</strong> ! Ўрнига %4$sдан фойдаланинг."
 
 #: wp-includes/functions.php:5042
 msgid "Close dialog"
-msgstr "Мулоқотни ёпиш"
+msgstr "Ойнани ёпиш"
 
 #: wp-includes/functions.wp-scripts.php:110
 msgid "Do not pass script tags to wp_add_inline_script()."
-msgstr ""
+msgstr "wp_add_inline_script() функциясини чақирганда script тегидан фойдаланманг."
 
 #: wp-includes/customize/class-wp-customize-partial.php:221
 msgid "Partial render must echo the content or return the content string (or array), but not both."
-msgstr ""
+msgstr "Қисман кўрсатиш функцияси матнни қайта акс эттириши ёки уни сатр (ёки массив)  сифатида қайтариши мумкин, лекин бир вақтни ўзида ҳар иккаласини қилмаслиги керак."
 
 #. translators: %s: document.write()
 #: wp-includes/customize/class-wp-customize-selective-refresh.php:188
@@ -254,12 +254,12 @@ msgstr "Тасдиқланган"
 #: wp-includes/comment.php:236
 msgctxt "comment status"
 msgid "Spam"
-msgstr "Қалбаки"
+msgstr "Спам"
 
 #: wp-includes/comment.php:237
 msgctxt "comment status"
 msgid "Trash"
-msgstr "Ўчириш"
+msgstr "Ўчирилган"
 
 #: wp-includes/comment.php:2890
 msgid "<strong>ERROR</strong>: your name is too long."
@@ -267,15 +267,15 @@ msgstr "<strong>ХАТО</strong>: исмингиз жуда узун."
 
 #: wp-includes/comment.php:2894
 msgid "<strong>ERROR</strong>: your email address is too long."
-msgstr "<strong>ХАТО</strong>: электрон почта манзилингиз жуд узун."
+msgstr "<strong>ХАТО</strong>: Электрон почта манзилингиз жуда узун."
 
 #: wp-includes/comment.php:2898
 msgid "<strong>ERROR</strong>: your url is too long."
-msgstr ""
+msgstr "<strong>ХАТО</strong>: ҳаволангиз жуда узун."
 
 #: wp-includes/comment.php:2904
 msgid "<strong>ERROR</strong>: your comment is too long."
-msgstr ""
+msgstr "<strong>ХАТО</strong>: шарҳингиз матни жуда узун."
 
 #: wp-includes/class-wp-customize-manager.php:1964
 msgid "Logo"
@@ -283,55 +283,55 @@ msgstr "Логотип"
 
 #: wp-includes/class-wp-editor.php:1046
 msgid "Paste URL or type to search"
-msgstr ""
+msgstr "Қидириш учун URL қўйинг ёки ёзинг"
 
 #: wp-includes/class-wp-metadata-lazyloader.php:81
 #: wp-includes/class-wp-metadata-lazyloader.php:122
 msgid "Invalid object type"
-msgstr ""
+msgstr "Яроқсиз объект тури"
 
 #. translators: 1: index.php, 2: Codex URL, 3: style.css
 #: wp-includes/class-wp-theme.php:273
 msgid "Template is missing. Standalone themes need to have a %1$s template file. <a href=\"%2$s\">Child themes</a> need to have a Template header in the %3$s stylesheet."
-msgstr ""
+msgstr "Шаблон топилмади. Автоном шаблонлар %1$s шаблон файлига эга бўлиши лозим. <a href=\"%2$s\">Бола шаблон</a> сарлавҳада «Template» стиллар жадвалида %3$s бўлиши керак."
 
 #: wp-includes/class-wp-theme.php:275
 msgid "https://codex.wordpress.org/Child_Themes"
-msgstr ""
+msgstr "https://codex.wordpress.org/Child_Themes"
 
 #: wp-includes/class-wp-customize-manager.php:1931
 #: wp-includes/class-wp-customize-manager.php:2008
 msgid "Display Site Title and Tagline"
-msgstr ""
+msgstr "Сайт номи ва шиорини кўрсатиш"
 
 #: wp-comments-post.php:24
 msgid "Comment Submission Failure"
-msgstr ""
+msgstr "Шарҳни топширишда хатолик юз берди"
 
 #: wp-includes/class-wp-customize-manager.php:830
 #: wp-includes/customize/class-wp-customize-selective-refresh.php:186
 msgid "Shift-click to edit this element."
-msgstr ""
+msgstr "Ушбу элементни ўзгартириш учун  Shift  ва сичқон ўн тугмасинин босинг."
 
 #: wp-includes/class-wp-customize-manager.php:1804
 msgid "Enter desktop preview mode"
-msgstr ""
+msgstr "Компьютерда кўриш режимига ўтиш"
 
 #: wp-includes/class-wp-customize-manager.php:1808
 msgid "Enter tablet preview mode"
-msgstr ""
+msgstr "Планшетда кўриш режимига ўтиш"
 
 #: wp-includes/class-wp-customize-manager.php:1811
 msgid "Enter mobile preview mode"
-msgstr ""
+msgstr "Мобил телефонда кўриш режимига ўтиш"
 
 #: wp-includes/user.php:2238
 msgid "<strong>ERROR</strong>: Sorry, that username is not allowed."
-msgstr "<strong>XATO</strong>: Кечирасиз бу фойдалнувчи номи мумкин эмас."
+msgstr "<strong>ХАТО</strong>: Кечирасиз бу фойдалнувчи номи мумкин эмас."
 
 #: wp-includes/rest-api/class-wp-rest-request.php:857
 msgid "Invalid parameter."
-msgstr "Номақбул параметр."
+msgstr "Яроқсиз параметр."
 
 #. translators: %s: menu name
 #: wp-includes/customize/class-wp-customize-nav-menu-control.php:76
@@ -366,7 +366,7 @@ msgstr "https://codex.wordpress.org/Debugging_in_WordPress"
 #. translators: 1: $table_prefix 2: wp-config.php
 #: wp-includes/load.php:405
 msgid "<strong>ERROR</strong>: %1$s in %2$s can only contain numbers, letters, and underscores."
-msgstr "<strong>XATO</strong>: %2$s даги %1$s  фақатгина ҳарф, рақам, ва  пастга чизиқдан иборат бўлиши мумкин."
+msgstr "<strong>ХАТО</strong>: %2$s даги %1$s  фақатгина ҳарф, рақам, ва  пастга чизиқдан иборат бўлиши мумкин."
 
 #: wp-includes/script-loader.php:576 wp-includes/script-loader.php:582
 msgid "Changes saved."
@@ -375,11 +375,11 @@ msgstr "Ўзгариш сақланди."
 #. translators: %s: Codex URL
 #: wp-load.php:82
 msgid "Need more help? <a href='%s'>We got it</a>."
-msgstr "Кўпроқ ёрдам керакми? <a href='%s'>Бу ерга ташриф этинг</a>."
+msgstr "Ёрдам керакми? <a href='%s'>Бу ерга ташриф этинг</a>."
 
 #: wp-load.php:83
 msgid "https://codex.wordpress.org/Editing_wp-config.php"
-msgstr "https://codex.wordpress.org/Editing_wp-config.php"
+msgstr "https://codex.wordpress.org/Таҳрирлаш_wp-config.php"
 
 #. translators: %s: get_the_author()
 #. translators: %s: get_trackback_url()
@@ -400,160 +400,160 @@ msgstr "%s файл мавжуд эмас. Давом этиш учун бу ф�
 
 #: wp-includes/class-wp-term.php:166
 msgid "Term ID is shared between multiple taxonomies"
-msgstr "Term ID is shared between multiple taxonomies"
+msgstr "ID элементи бир неча таснифда ишлатилади."
 
 #. translators: month name, genitive
 #: wp-includes/locale.php:158
 msgctxt "genitive"
 msgid "June"
-msgstr "Июнь"
+msgstr "июнь"
 
 #. translators: month name, genitive
 #: wp-includes/locale.php:159
 msgctxt "genitive"
 msgid "July"
-msgstr "Июль"
+msgstr "июль"
 
 #. translators: month name, genitive
 #: wp-includes/locale.php:160
 msgctxt "genitive"
 msgid "August"
-msgstr "Август"
+msgstr "август"
 
 #. translators: month name, genitive
 #: wp-includes/locale.php:161
 msgctxt "genitive"
 msgid "September"
-msgstr "Сентябрь"
+msgstr "сентябрь"
 
 #. translators: month name, genitive
 #: wp-includes/locale.php:162
 msgctxt "genitive"
 msgid "October"
-msgstr "Откябрь"
+msgstr "откябрь"
 
 #. translators: month name, genitive
 #: wp-includes/locale.php:163
 msgctxt "genitive"
 msgid "November"
-msgstr "Ноябрь"
+msgstr "ноябрь"
 
 #. translators: month name, genitive
 #: wp-includes/locale.php:164
 msgctxt "genitive"
 msgid "December"
-msgstr "Декабрь"
+msgstr "декабрь"
 
 #: wp-includes/taxonomy.php:1764 wp-includes/taxonomy.php:1846
 msgid "Term meta cannot be added to terms that are shared between taxonomies."
-msgstr ""
+msgstr "К элементам, связанным с несколькими таксономиями, нельзя добавить метаданные."
 
 #. translators: If months in your language require a genitive case, translate
 #. this to 'on'. Do not translate into your own language.
 #: wp-includes/functions.php:183
 msgctxt "decline months names: on or off"
 msgid "off"
-msgstr ""
+msgstr "on"
 
 #. translators: month name, genitive
 #: wp-includes/locale.php:153
 msgctxt "genitive"
 msgid "January"
-msgstr "Январь"
+msgstr "январь"
 
 #. translators: month name, genitive
 #: wp-includes/locale.php:154
 msgctxt "genitive"
 msgid "February"
-msgstr "Февраль"
+msgstr "февраль"
 
 #. translators: month name, genitive
 #: wp-includes/locale.php:155
 msgctxt "genitive"
 msgid "March"
-msgstr "Март"
+msgstr "март"
 
 #. translators: month name, genitive
 #: wp-includes/locale.php:156
 msgctxt "genitive"
 msgid "April"
-msgstr "Апрель"
+msgstr "апрель"
 
 #. translators: month name, genitive
 #: wp-includes/locale.php:157
 msgctxt "genitive"
 msgid "May"
-msgstr "Май"
+msgstr "май"
 
 #: wp-includes/embed.php:1022
 msgid "Sharing options"
-msgstr ""
+msgstr "Улашиш танловлари"
 
 #: wp-includes/class-wp-xmlrpc-server.php:533
 msgid "Medium-Large size image width"
-msgstr ""
+msgstr "Расм эни ўртадан катта"
 
 #: wp-includes/class-wp-xmlrpc-server.php:538
 msgid "Medium-Large size image height"
-msgstr ""
+msgstr "Расм бўйи ўртадан катта"
 
 #. translators: %s: site link
 #: wp-includes/theme-compat/sidebar.php:79
 msgid "You are currently browsing the %s blog archives."
-msgstr ""
+msgstr "Сиз хозир %s блогининг архивини кузатяпсиз."
 
 #. translators: 1: site link, 2: archive date
 #: wp-includes/theme-compat/sidebar.php:47
 msgid "You are currently browsing the %1$s blog archives for the day %2$s."
-msgstr ""
+msgstr "Сиз хозир %s блогининг %2$s куни учун архивини кузатяпсиз."
 
 #. translators: 1: site link, 2: archive month
 #: wp-includes/theme-compat/sidebar.php:55
 msgid "You are currently browsing the %1$s blog archives for %2$s."
-msgstr ""
+msgstr "Сиз хозир %s блогининг %2$s ойи учун архивини кузатяпсиз."
 
 #. translators: 1: site link, 2: archive year
 #: wp-includes/theme-compat/sidebar.php:63
 msgid "You are currently browsing the %1$s blog archives for the year %2$s."
-msgstr ""
+msgstr "Сиз хозир %s блогининг %2$s йил учун архивини кузатяпсиз."
 
 #. translators: %s: admin email link
 #: wp-includes/ms-load.php:102
 msgid "This site has not been activated yet. If you are having problems activating your site, please contact %s."
-msgstr ""
+msgstr "Бу сайт хали фаоллаштирилмаган. Фаоллаштиришга боғлиқ муаммо пайдо бўлса %s манзилига хат ёзинг."
 
 #. translators: %s: menu name
 #: wp-includes/nav-menu.php:289 wp-includes/nav-menu.php:302
 msgid "The menu name %s conflicts with another menu name. Please try another."
-msgstr ""
+msgstr "%s меню сарлавҳаси ишлатилмоқда. Илтимос, бошқа сарлавҳа танланг."
 
 #. translators: %s: email address
 #: wp-signup.php:588 wp-signup.php:734
 msgid "Check your inbox at %s and click the link given."
-msgstr ""
+msgstr " %s электрон почта қутингизни текширинг ёки берилган ҳаволага босинг."
 
 #. translators: %s: site address
 #: wp-signup.php:858
 msgid "The site you were looking for, %s, does not exist."
-msgstr ""
+msgstr "Сиз қидираётган %s сайт мавжуд эмас."
 
 #. translators: %s: a link to the embedded site
 #: wp-includes/theme-compat/embed-404.php:21
 msgid "It looks like nothing was found at this location. Maybe try visiting %s directly?"
-msgstr ""
+msgstr "Бу манзилда хеч нарса топилмади. %s сайтига ташриф буюринг ."
 
 #. translators: %s: Name of current post
 #: wp-includes/embed.php:826
 msgid "Continue reading %s"
-msgstr ""
+msgstr "%s давомини ўқиш"
 
 #: wp-includes/theme-compat/embed-404.php:14
 msgid "Oops! That embed can&#8217;t be found."
-msgstr ""
+msgstr "Вой!  Объект топилмади."
 
 #: wp-mail.php:227
 msgid "Posted title:"
-msgstr ""
+msgstr "Сарлавҳа:"
 
 #. translators: %s: the message ID
 #: wp-mail.php:240
@@ -570,52 +570,52 @@ msgstr "Муаллиф:"
 
 #: wp-includes/wp-db.php:1546
 msgid "Are you sure that you have typed the correct hostname?"
-msgstr ""
+msgstr "Сиз сервер номини тўғри киритганингизга аминмисиз?"
 
 #: wp-includes/wp-db.php:1547 wp-includes/wp-db.php:1650
 msgid "Are you sure that the database server is running?"
-msgstr ""
+msgstr "Сиз серверда маълумотлар базаси ишлаётганига аминмисиз?"
 
 #. translators: %s: support forums URL
 #: wp-includes/wp-db.php:1552 wp-includes/wp-db.php:1656
 msgid "If you&#8217;re unsure what these terms mean you should probably contact your host. If you still need help you can always visit the <a href=\"%s\">WordPress Support Forums</a>."
-msgstr ""
+msgstr "Агар сиз бу атамалар нима деганин билмасангиз , хостинг провайдерга мурожаат қилишиниз мумкин.  Сўнгра, ёрдам керак бўлса, ҳар доим  <a href=\"%s\">WordPress қўллаб-қувватлаш форуми</a>га ташриф буюришингиз мумкин."
 
 #: wp-includes/wp-db.php:1641
 msgid "Error reconnecting to the database"
-msgstr ""
+msgstr "Маълумотлар базасига уланишда хатолик юз берди"
 
 #. translators: %s: database host
 #: wp-includes/wp-db.php:1645
 msgid "This means that we lost contact with the database server at %s. This could mean your host&#8217;s database server is down."
-msgstr ""
+msgstr "Это значит, что связь с сервером базы данных по адресу %s утеряна. Возможно, сервер недоступен."
 
 #: wp-includes/wp-db.php:1651
 msgid "Are you sure that the database server is not under particularly heavy load?"
-msgstr ""
+msgstr "Вы уверены, что сервер базы данных не находится под большой нагрузкой?"
 
 #. translators: 1: wp-config.php. 2: database host
 #: wp-includes/wp-db.php:1539
 msgid "This either means that the username and password information in your %1$s file is incorrect or we can&#8217;t contact the database server at %2$s. This could mean your host&#8217;s database server is down."
-msgstr ""
+msgstr "Это значит, что либо имя пользователя и пароль в файле %1$s неверны, либо нам не удалось связаться с сервером базы данных по адресу %2$s. Возможно, сервер недоступен."
 
 #: wp-includes/wp-db.php:1545
 msgid "Are you sure you have the correct username and password?"
-msgstr ""
+msgstr "Вы уверены, что указали правильное имя пользователя и пароль?"
 
 #. translators: %s: support forums URL
 #: wp-includes/wp-db.php:1084
 msgid "If you don&#8217;t know how to set up a database you should <strong>contact your host</strong>. If all else fails you may find help at the <a href=\"%s\">WordPress Support Forums</a>."
-msgstr ""
+msgstr "Если вы не знаете, как настроить доступ к базе данных, следует <strong>обратиться к хостинг-провайдеру</strong>. Если проблему так и не удалось решить &#8212; возможно, вам помогут на <a href=\"%s\">форуме поддержки WordPress</a>."
 
 #: wp-includes/wp-db.php:1056
 msgid "Can&#8217;t select database"
-msgstr ""
+msgstr "Не удалось выбрать базу данных"
 
 #. translators: %s: database name
 #: wp-includes/wp-db.php:1060
 msgid "We were able to connect to the database server (which means your username and password is okay) but not able to select the %s database."
-msgstr ""
+msgstr "Мы успешно подключились к серверу (это значит, что имя пользователя и пароль верны), но не смогли выбрать базу данных %s."
 
 #: wp-includes/wp-db.php:1065
 msgid "Are you sure it exists?"
@@ -624,253 +624,253 @@ msgstr "Бунинг мавжудлигига аминмисиз?"
 #. translators: 1: database user, 2: database name
 #: wp-includes/wp-db.php:1069
 msgid "Does the user %1$s have permission to use the %2$s database?"
-msgstr ""
+msgstr "Имеет ли пользователь %1$s права на использование базы данных %2$s?"
 
 #. translators: %s: database name
 #: wp-includes/wp-db.php:1076
 msgid "On some systems the name of your database is prefixed with your username, so it would be like <code>username_%1$s</code>. Could that be the problem?"
-msgstr ""
+msgstr "В некоторых системах имя базы данных дополняется именем пользователя в виде префикса, получается что-то вроде <code>username_%1$s</code>. Возможно, причина в этом?"
 
 #: wp-includes/widgets/class-wp-widget-tag-cloud.php:135
 msgid "The tag cloud will not be displayed since there are no taxonomies that support the tag cloud widget."
-msgstr ""
+msgstr "Облако меток не будет отображено, потому что ни одна из таксономий его не поддерживает."
 
 #. translators: %s: user name
 #: wp-includes/user.php:164
 msgid "<strong>ERROR</strong>: The password you entered for the username %s is incorrect."
-msgstr "<strong>XATO</strong>: %s фойдалнувчи номи учун киритилган парол нотўғри."
+msgstr "<strong>ХАТО</strong>: %s фойдалнувчи номи учун киритилган парол нотўғри."
 
 #: wp-includes/user.php:1440
 msgid "Nicename may not be longer than 50 characters."
-msgstr ""
+msgstr "Ярлык пользователя не может быть длиннее 50 символов."
 
 #: wp-includes/user.php:2076
 msgid "Could not save password reset key to database."
-msgstr ""
+msgstr "Не удалось сохранить ключ для сброса пароля в базе данных."
 
 #: wp-includes/taxonomy.php:612
 msgid "Tags list navigation"
-msgstr ""
+msgstr "Навигация по списку меток"
 
 #: wp-includes/taxonomy.php:612
 msgid "Categories list navigation"
-msgstr ""
+msgstr "Навигация по списку рубрик"
 
 #: wp-includes/taxonomy.php:613
 msgid "Tags list"
-msgstr ""
+msgstr "Список меток"
 
 #: wp-includes/taxonomy.php:613
 msgid "Categories list"
-msgstr ""
+msgstr "Список рубрик"
 
 #: wp-includes/user.php:140
 msgid "<strong>ERROR</strong>: Invalid username."
-msgstr "<strong>XATO</strong>: Номақбул фойдаланувчи номи."
+msgstr "<strong>ХАТО</strong>: Яроқсиз фойдаланувчи номи."
 
 #. translators: 1: function name, 2: WordPress version number
 #: wp-includes/rest-api.php:356 wp-includes/rest-api.php:377
 msgid "%1$s (since %2$s; no alternative available)"
-msgstr ""
+msgstr "%1$s (с версии %2$s; альтернативы не предусмотрено)"
 
 #. translators: 1: function name, 2: WordPress version number, 3: error message
 #: wp-includes/rest-api.php:374
 msgid "%1$s (since %2$s; %3$s)"
-msgstr ""
+msgstr "%1$s (с версии %2$s; %3$s)"
 
 #: wp-includes/rest-api.php:592
 msgid "Cookie nonce is invalid"
-msgstr ""
+msgstr "Неверный параметр nonce в cookie"
 
 #: wp-includes/script-loader.php:538
 msgid "Permalink saved"
-msgstr ""
+msgstr "Постоянная ссылка сохранена"
 
 #: wp-includes/shortcodes.php:93
 msgid "Invalid shortcode name: Empty name given."
-msgstr ""
+msgstr "Неверное имя шорткода: Указано пустое имя."
 
 #. translators: 1: shortcode name, 2: space separated list of reserved
 #. characters
 #: wp-includes/shortcodes.php:100
 msgid "Invalid shortcode name: %1$s. Do not use spaces or reserved characters: %2$s"
-msgstr ""
+msgstr "Неверное имя шорткода: %1$s. Не используйте пробелы и зарезервированные символы: %2$s"
 
 #: wp-includes/rest-api/class-wp-rest-server.php:1012
 msgid "The specified namespace could not be found."
-msgstr ""
+msgstr "Не удалось найти указанное пространство имён."
 
 #. translators: 1: function name, 2: WordPress version number, 3: new function
 #. name
 #: wp-includes/rest-api.php:353
 msgid "%1$s (since %2$s; use %3$s instead)"
-msgstr ""
+msgstr "%1$s (с версии %2$s; используйте %3$s)"
 
 #: wp-includes/rest-api/class-wp-rest-server.php:882
 msgid "You don't have permission to do this."
-msgstr ""
+msgstr "У вас нет прав, чтобы сделать это."
 
 #: wp-includes/rest-api/class-wp-rest-server.php:924
 msgid "No route was found matching the URL and request method"
-msgstr ""
+msgstr "Подходящий маршрут для URL и метода запроса не найден"
 
 #. translators: 1: pre_get_posts 2: WP_Query->is_main_query() 3:
 #. is_main_query() 4: link to codex is_main_query() page.
 #: wp-includes/query.php:734
 msgid "In %1$s, use the %2$s method, not the %3$s function. See %4$s."
-msgstr ""
+msgstr "В %1$s используйте метод %2$s вместо функции %3$s. См. %4$s."
 
 #: wp-includes/rest-api/class-wp-rest-request.php:839
 msgid "Missing parameter(s): %s"
-msgstr ""
+msgstr "Отсутствует параметр: %s"
 
 #: wp-includes/rest-api/class-wp-rest-request.php:867
 msgid "Invalid parameter(s): %s"
-msgstr ""
+msgstr "Неверный параметр: %s"
 
 #: wp-includes/rest-api/class-wp-rest-server.php:274
 msgid "The REST API is disabled on this site."
-msgstr ""
+msgstr "Интерфейс REST API на этом сайте отключён."
 
 #: wp-includes/rest-api/class-wp-rest-server.php:279
 msgid "JSONP support is disabled on this site."
-msgstr ""
+msgstr "Поддержка JSONP на этом сайте отключена."
 
 #: wp-includes/rest-api/class-wp-rest-server.php:291
 msgid "The JSONP callback function is invalid."
-msgstr ""
+msgstr "Неверная функция обработки JSONP."
 
 #: wp-includes/rest-api/class-wp-rest-server.php:846
 msgid "The handler for the route is invalid"
-msgstr ""
+msgstr "Неверный обработчик маршрута"
 
 #: wp-includes/post.php:1467
 msgid "Pages list navigation"
-msgstr ""
+msgstr "Навигация по списку страниц"
 
 #: wp-includes/post.php:1468
 msgid "Posts list"
-msgstr ""
+msgstr "Мақолалар рўйхат"
 
 #: wp-includes/post.php:1468
 msgid "Pages list"
-msgstr ""
+msgstr "Список страниц"
 
 #: wp-includes/post.php:1459
 msgid "Post Archives"
-msgstr ""
+msgstr "Архивы записей"
 
 #: wp-includes/post.php:1459
 msgid "Page Archives"
-msgstr ""
+msgstr "Архивы страниц"
 
 #: wp-includes/post.php:1466
 msgid "Filter posts list"
-msgstr ""
+msgstr "Фильтровать список записей"
 
 #: wp-includes/post.php:1466
 msgid "Filter pages list"
-msgstr ""
+msgstr "Фильтровать список страниц"
 
 #: wp-includes/post.php:1467
 msgid "Posts list navigation"
-msgstr ""
+msgstr "Навигация по списку записей"
 
 #: wp-includes/ms-functions.php:431 wp-includes/ms-functions.php:438
 #: wp-includes/user.php:1430
 msgid "Sorry, that username is not allowed."
-msgstr ""
+msgstr "Извините, это имя пользователя не разрешено."
 
 #: wp-includes/ms-functions.php:570
 msgid "Site names can only contain lowercase letters (a-z) and numbers."
-msgstr ""
+msgstr "Имя сайта может содержать только латинские буквы в нижнем регистре (a&#8212;z) и цифры."
 
 #: wp-includes/class-wp-customize-nav-menus.php:154
 #: wp-includes/nav-menu.php:771
 msgid "Post Type Archive"
-msgstr ""
+msgstr "Архив типа записей"
 
 #. translators: three-letter abbreviation of the month
 #: wp-includes/locale.php:177
 msgctxt "November abbreviation"
 msgid "Nov"
-msgstr ""
+msgstr "Ноя"
 
 #. translators: three-letter abbreviation of the month
 #: wp-includes/locale.php:178
 msgctxt "December abbreviation"
 msgid "Dec"
-msgstr ""
+msgstr "Дек"
 
 #. translators: playlist item title
 #: wp-includes/media.php:1778 wp-includes/media.php:1793
 msgctxt "playlist item title"
 msgid "&#8220;%s&#8221;"
-msgstr ""
+msgstr "«%s»"
 
 #: wp-includes/ms-functions.php:416
 msgid "Usernames can only contain lowercase letters (a-z) and numbers."
-msgstr ""
+msgstr "Имя пользователя может содержать только латинские буквы в нижнем регистре (a&#8212;z) и цифры."
 
 #. translators: three-letter abbreviation of the month
 #: wp-includes/locale.php:173
 msgctxt "July abbreviation"
 msgid "Jul"
-msgstr ""
+msgstr "Июл"
 
 #. translators: three-letter abbreviation of the month
 #: wp-includes/locale.php:174
 msgctxt "August abbreviation"
 msgid "Aug"
-msgstr ""
+msgstr "Авг"
 
 #. translators: three-letter abbreviation of the month
 #: wp-includes/locale.php:175
 msgctxt "September abbreviation"
 msgid "Sep"
-msgstr ""
+msgstr "Сен"
 
 #. translators: three-letter abbreviation of the month
 #: wp-includes/locale.php:176
 msgctxt "October abbreviation"
 msgid "Oct"
-msgstr ""
+msgstr "Окт"
 
 #. translators: three-letter abbreviation of the month
 #: wp-includes/locale.php:167
 msgctxt "January abbreviation"
 msgid "Jan"
-msgstr ""
+msgstr "Янв"
 
 #. translators: three-letter abbreviation of the month
 #: wp-includes/locale.php:168
 msgctxt "February abbreviation"
 msgid "Feb"
-msgstr ""
+msgstr "Фев"
 
 #. translators: three-letter abbreviation of the month
 #: wp-includes/locale.php:169
 msgctxt "March abbreviation"
 msgid "Mar"
-msgstr ""
+msgstr "Мар"
 
 #. translators: three-letter abbreviation of the month
 #: wp-includes/locale.php:170
 msgctxt "April abbreviation"
 msgid "Apr"
-msgstr ""
+msgstr "Апр"
 
 #. translators: three-letter abbreviation of the month
 #: wp-includes/locale.php:171
 msgctxt "May abbreviation"
 msgid "May"
-msgstr ""
+msgstr "Май"
 
 #. translators: three-letter abbreviation of the month
 #: wp-includes/locale.php:172
 msgctxt "June abbreviation"
 msgid "Jun"
-msgstr ""
+msgstr "Июн"
 
 #. translators: one-letter abbreviation of the weekday
 #: wp-includes/locale.php:124
@@ -928,102 +928,102 @@ msgstr "Эски шарҳлар"
 
 #: wp-includes/embed.php:1044
 msgid "Copy and paste this code into your site to embed"
-msgstr ""
+msgstr "Скопируйте и вставьте этот код на ваш сайт"
 
 #: wp-includes/embed.php:1049
 msgid "Close sharing dialog"
-msgstr ""
+msgstr "Закрыть окно вставки"
 
 #. translators: %s: 'document_title_separator' filter name
 #: wp-includes/feed.php:102 wp-includes/feed.php:128
 msgid "Use the %s filter instead."
-msgstr ""
+msgstr "Используйте фильтр %s."
 
 #: wp-includes/embed.php:981
 msgid "%s <span class=\"screen-reader-text\">Comment</span>"
 msgid_plural "%s <span class=\"screen-reader-text\">Comments</span>"
-msgstr[0] ""
+msgstr[0] "Шарҳ"
 
 #: wp-includes/embed.php:1005
 msgid "Open sharing dialog"
-msgstr ""
+msgstr "Открыть окно вставки"
 
 #: wp-includes/embed.php:1027
 msgid "WordPress Embed"
-msgstr ""
+msgstr "Вставка в WordPress"
 
 #: wp-includes/embed.php:1030
 msgid "HTML Embed"
-msgstr ""
+msgstr "HTML-код"
 
 #: wp-includes/embed.php:1037
 msgid "Copy and paste this URL into your WordPress site to embed"
-msgstr ""
+msgstr "Скопируйте и вставьте этот URL на ваш сайт под управлением WordPress"
 
 #: wp-includes/customize/class-wp-widget-area-customize-control.php:67
 msgid "When in reorder mode, additional controls to reorder widgets will be available in the widgets list above."
-msgstr ""
+msgstr "В режиме изменения порядка в списке виджетов выше появятся дополнительные элементы управления."
 
 #: wp-includes/customize/class-wp-customize-themes-section.php:75
 #: wp-includes/customize/class-wp-customize-themes-section.php:76
 msgid "Search installed themes&hellip;"
-msgstr ""
+msgstr "Поиск установленных тем&hellip;"
 
 #: wp-includes/class-wp-xmlrpc-server.php:5799
 msgid "Sorry, you have used your space allocation."
-msgstr ""
+msgstr "К сожалению, вы использовали всё доступное пространство."
 
 #: wp-includes/class-wp-xmlrpc-server.php:2473
 msgid "You are not allowed to browse users."
-msgstr ""
+msgstr "Вам не разрешено просматривать список пользователей."
 
 #: wp-includes/class-wp-xmlrpc-server.php:3229
 #: wp-includes/class-wp-xmlrpc-server.php:3362
 #: wp-includes/class-wp-xmlrpc-server.php:3429
 msgid "You are not allowed to moderate or edit this comment."
-msgstr ""
+msgstr "Вам не разрешено модерировать или редактировать этот комментарий."
 
 #: wp-includes/class-wp-customize-widgets.php:732
 msgid "There are no widget areas currently rendered in the preview. Navigate in the preview to a template that makes use of a widget area in order to access its widgets here."
-msgstr ""
+msgstr "В окне предпросмотра сейчас нет ни одной области виджетов. Перейдите справа на страницу, где есть область виджетов, чтобы получить здесь доступ к её виджетам."
 
 #: wp-includes/class-wp-customize-widgets.php:735
 #: wp-includes/customize/class-wp-widget-area-customize-control.php:63
 msgid "Reorder widgets"
-msgstr ""
+msgstr "Изменить порядок виджетов"
 
 #: wp-includes/class-wp-customize-section.php:350
 msgid "Press return or enter to open this section"
-msgstr ""
+msgstr "Нажмите Enter, чтобы открыть эту секцию"
 
 #. translators: %s: document title from the preview
 #: wp-includes/class-wp-customize-manager.php:1528
 msgid "Live Preview: %s"
-msgstr ""
+msgstr "Просмотр: %s"
 
 #: wp-includes/class-wp-customize-manager.php:390
 #: wp-includes/script-loader.php:446
 msgid "You are not allowed to customize the appearance of this site."
-msgstr ""
+msgstr "Вам не разрешено настраивать внешний вид этого сайта."
 
 #: wp-includes/class-wp-customize-manager.php:384
 msgid "You must be logged in to complete this action."
-msgstr ""
+msgstr "Чтобы завершить это действие, необходимо авторизоваться."
 
 #. translators: 1: "type => link", 2: "taxonomy => link_category" alternative
 #: wp-includes/category-template.php:378 wp-includes/category.php:46
 msgid "%1$s is deprecated. Use %2$s instead."
-msgstr ""
+msgstr "Параметр %1$s считается устаревшим. Используйте %2$s."
 
 #. translators: 1: post type, 2: capability name
 #: wp-includes/capabilities.php:73 wp-includes/capabilities.php:134
 #: wp-includes/capabilities.php:193 wp-includes/capabilities.php:230
 msgid "The post type %1$s is not registered, so it may not be reliable to check the capability \"%2$s\" against a post of that type."
-msgstr ""
+msgstr "Тип записей «%1$s» не зарегистрирован, поэтому проверка возможности «%2$s» относительно него может привести к неожиданным результатам."
 
 #: wp-includes/class-wp-customize-manager.php:404
 msgid "You are not allowed to edit theme options on this site."
-msgstr ""
+msgstr "Вам не разрешено менять настройки темы на этом сайте."
 
 #: wp-includes/class-wp-customize-manager.php:414
 msgid "The requested theme does not exist."
@@ -1109,7 +1109,7 @@ msgstr "Меню танловлари"
 
 #: wp-login.php:734
 msgid "Registration confirmation will be emailed to you."
-msgstr ""
+msgstr "Подтверждение регистрации будет отправлено на ваш e-mail."
 
 #: wp-includes/script-loader.php:392
 msgid "Hide"
@@ -1162,7 +1162,7 @@ msgstr "Сайт ёрлиғи"
 #. translators: %s: site icon size in pixels
 #: wp-includes/class-wp-customize-manager.php:1948
 msgid "The Site Icon is used as a browser and app icon for your site. Icons must be square, and at least %s pixels wide and tall."
-msgstr ""
+msgstr "Иконка сайта используется в браузере и на экранах мобильных устройств. Иконка должна быть квадратной, не менее %s пикселей по ширине и высоте."
 
 #: wp-includes/script-loader.php:450
 msgid "Expand Sidebar"
@@ -1179,7 +1179,7 @@ msgstr "Менюга қўшиш: %1$s (%2$s)"
 
 #: wp-includes/class-wp-editor.php:1068
 msgid "When starting a new paragraph with one of these formatting shortcuts followed by a space, the formatting will be applied automatically. Press Backspace or Escape to undo."
-msgstr "Quyidagi o'zidan keyin bo'sh joy bilan keladigan format ko'rsatkichlaridan birini ishlatib yangi abzatsni boshlaganingizda format avtomatik ravishda saqlanadi. Bekor qilish uchun Backspace yoki bekor qilish tugmasini bosing."
+msgstr "Қуйидаги ўзидан кейин бўш жой билан келадиган бичимлаш ёрлиғидан фойдаланиб янги абзац бошланганда, бичимлар автоматик қўлланади. Бекор қилиш учун Backspace ёки Escape тугмасини босинг."
 
 #: wp-includes/wp-db.php:1337 wp-includes/wp-db.php:1354
 msgid "WordPress database error:"
@@ -1237,11 +1237,11 @@ msgstr "Тартиблаш ҳолати ёпиқ"
 
 #: wp-includes/class-wp-customize-nav-menus.php:499
 msgid "Menus can be displayed in locations defined by your theme or in <a href=\"%s\">widget areas</a> by adding a &#8220;Custom Menu&#8221; widget."
-msgstr "Menyular shabloningizda ko'rsatilgan joyda yoki <a href=\"%s\">vidjetlar joyida</a> yangi &#8220;Maxsus menyu&#8221; menyusini qo'shish orqali ko'rsatilishi mumkin."
+msgstr "Менюлар шаблонингизда белгиланган жойда ёки  <a href=\"%s\">виджетлар жойида</a> янги &#8220;Махсус Меню&#8221; виджети орқали кўрсатилиш мумкин."
 
 #: wp-includes/class-wp-customize-nav-menus.php:501
 msgid "Menus can be displayed in locations defined by your theme."
-msgstr "Menyular shabloningizda belgilangan joylarda ko'rsatilishi mumkin."
+msgstr "Менюлар шаблонингизда белгиланган жойларда кўрсатилиши мумкин."
 
 #: wp-includes/customize/class-wp-customize-themes-section.php:43
 #: wp-includes/customize/class-wp-customize-themes-section.php:62
@@ -1275,7 +1275,7 @@ msgstr "O'ngdan chapga yoziladigan tillar uchun %sning develop repository papkas
 
 #: wp-includes/user.php:1840
 msgid "[%s] Notice of Email Change"
-msgstr "[%s] Email o'zgarganligi haqida xabarnoma"
+msgstr "[%s] Электрон почта манзили ўзгарганлиги ҳақида хабарнома"
 
 #. translators: Do not translate USERNAME, ADMIN_EMAIL, EMAIL, SITENAME,
 #. SITEURL: those are placeholders.
@@ -1339,7 +1339,7 @@ msgstr ""
 
 #: wp-includes/user.php:1785
 msgid "[%s] Notice of Password Change"
-msgstr "[%s] Parol o'zgarganligi haqida xabarnoma"
+msgstr "[%s] Парол  ўзгарганлиги ҳақида хабарнома"
 
 #: wp-includes/script-loader.php:104
 msgid "Inserted text"
@@ -1347,35 +1347,35 @@ msgstr "Киритилган матн"
 
 #: wp-includes/script-loader.php:105
 msgid "Close inserted text tag"
-msgstr "Kiritilgan tegni yopish"
+msgstr "Киритилган тегни ёпиш"
 
 #: wp-includes/script-loader.php:108
 msgid "Close bulleted list tag"
-msgstr "Nuqtali ro'yxatni yopish"
+msgstr "Нуқтали рўйхат тегини ёпиш"
 
 #: wp-includes/script-loader.php:110
 msgid "Close numbered list tag"
-msgstr "Raqamli ro'yxatni yopish"
+msgstr "Рақамли рўйхат тегини ёпиш"
 
 #: wp-includes/script-loader.php:111
 msgid "List item"
-msgstr "Ro'yxat"
+msgstr "Рўйхат"
 
 #: wp-includes/script-loader.php:112
 msgid "Close list item tag"
-msgstr "Ro'yxat yozuvini yopish"
+msgstr "Рўйхат бандининг тегини ёпиш"
 
 #: wp-includes/script-loader.php:114
 msgid "Close code tag"
-msgstr "Code tagini yopish"
+msgstr "Код тегини ёпиш"
 
 #: wp-includes/script-loader.php:496
 msgid ""
 "Are you sure you want to edit this comment?\n"
 "The changes you made will be lost."
 msgstr ""
-"Ushbu fikrni tahrirlamoqchi ekanligingizga ishonchingiz komilmi?\n"
-"Siz kiritgan o'zgartirishlar yo'qotiladi."
+"Сиз ушбу шарҳни таҳрирлашга аминмисиз?\n"
+"Сиз киритган ўзгартиришлар сақланмайди."
 
 #. translators: Error string for a failed update
 #: wp-includes/script-loader.php:600
@@ -1431,11 +1431,11 @@ msgstr "&#8217;tain&#8217;t,&#8217;twere,&#8217;twas,&#8217;tis,&#8217;twill,&#8
 
 #: wp-includes/media-template.php:1044 wp-includes/media-template.php:1058
 msgid "Remove audio source"
-msgstr "Audio manbasini o'chirish"
+msgstr "Аудио манбасини ўчириш"
 
 #: wp-includes/media-template.php:1127 wp-includes/media-template.php:1139
 msgid "Remove video source"
-msgstr "Video manbasini o'chirish"
+msgstr "Видео манбасини ўчириш"
 
 #. translators: This is a comma-separated list of words that defy the syntax of
 #. quotations in normal use, for example...  'We do not have enough words yet'
@@ -1448,11 +1448,11 @@ msgstr "'tain't,'twere,'twas,'tis,'twill,'til,'bout,'nuff,'round,'cause,'em"
 
 #: wp-includes/class-wp-editor.php:1052
 msgid "Default shortcuts,"
-msgstr "Odatiy qisqa tugmalar,"
+msgstr "Бошланғич ёрлиқлар"
 
 #: wp-includes/class-wp-editor.php:1053
 msgid "Additional shortcuts,"
-msgstr "Q'shimcha qisqa tugmalar,"
+msgstr "Қўшимча ёрлиқлар"
 
 #: wp-includes/class-wp-editor.php:1055
 msgid "Inline toolbar (when an image, link or preview is selected)"
@@ -1460,19 +1460,19 @@ msgstr "Кичик созлама панели (расм, ҳавола ёки о
 
 #: wp-includes/class-wp-editor.php:1059
 msgid "Ctrl + Alt + letter:"
-msgstr "Ctrl + Alt + harf:"
+msgstr "Ctrl + Alt + ҳарф:"
 
 #: wp-includes/class-wp-editor.php:1060
 msgid "Shift + Alt + letter:"
-msgstr "Shift + Alt + harf:"
+msgstr "Shift + Alt + ҳарф:"
 
 #: wp-includes/class-wp-editor.php:1061
 msgid "Cmd + letter:"
-msgstr "Cmd + harf:"
+msgstr "Cmd + ҳарф:"
 
 #: wp-includes/class-wp-editor.php:1062
 msgid "Ctrl + letter:"
-msgstr "Ctrl + harf:"
+msgstr "Ctrl + ҳарф:"
 
 #: wp-includes/class-wp-xmlrpc-server.php:558
 msgid "Allow link notifications from other blogs (pingbacks and trackbacks) on new articles"
@@ -1480,7 +1480,7 @@ msgstr "Yangi мақолаlar uchun boshqa bloglardan keladigan link eslatmalari
 
 #: wp-includes/widgets/class-wp-widget-text.php:112
 msgid "Content:"
-msgstr "Matn:"
+msgstr "Матн:"
 
 #: wp-includes/customize/class-wp-customize-nav-menus-panel.php:88
 msgid "Menu Options"
@@ -1707,7 +1707,7 @@ msgstr "Bo'ldi!"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-control.php:61
 msgid "Delete Menu"
-msgstr ""
+msgstr "Удалить меню"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-control.php:52
 msgid "Add Items"
@@ -1774,7 +1774,7 @@ msgstr "Yangilanish bekor qilindi."
 
 #: wp-includes/script-loader.php:598
 msgid "Update Failed!"
-msgstr ""
+msgstr "Обновление не удалось"
 
 #: wp-includes/customize/class-wp-customize-themes-section.php:50
 msgctxt "theme"
@@ -1789,7 +1789,7 @@ msgstr "Ushbu xabarnomani o'tkazib yuborish."
 #: wp-includes/theme-compat/comments.php:40
 msgid "%1$s response to %2$s"
 msgid_plural "%1$s responses to %2$s"
-msgstr[0] "%2$s ga %1$s ta javob"
+msgstr[0] "%2$sгa %1$sта жавоб"
 
 #: wp-includes/class-wp-customize-nav-menus.php:515
 msgid "Your theme supports one menu. Select which menu you would like to use."
@@ -1899,18 +1899,18 @@ msgid ""
 "\n"
 "--The Team @ SITE_NAME"
 msgstr ""
-"Assalomu alaykum USERNAME,\n"
+"Ҳурматли USERNAME,\n"
 "\n"
-"Sizning yangi a'zoligingiz sozlandi.\n"
+"Сизнинг профилингиз созланди.\n"
 "\n"
-"Endi siz quyidagi ma'lumotlar asosida kirishingiz mumkin:\n"
-"A'zolik ismi: USERNAME\n"
-"Parol: PASSWORD\n"
+"Энди сиз қуйидаги маълумотлардан фойдаланиб тизимга киришингиз мумкин:\n"
+"Фойдаланувчи номи: USERNAME\n"
+"Парол: PASSWORD\n"
 "LOGINLINK\n"
 "\n"
-"Tashakkur!\n"
+"Раҳмат!\n"
 "\n"
-"--@ SITE_NAME - jamoasi"
+"--«SITE_NAME» сайти маъмурияти"
 
 #. translators: Do not translate USERNAME, SITE_NAME, BLOG_URL, PASSWORD: those
 #. are placeholders.
@@ -1931,142 +1931,142 @@ msgid ""
 "\n"
 "--The Team @ SITE_NAME"
 msgstr ""
-"Salom USERNAME,\n"
+"Ҳурматли USERNAME,\n"
 "\n"
-"Sizning yangi SITE_NAME saytingiz quyidagi manzilda o'rnatildi:\n"
+"Сизнинг янги «SITE_NAME» сайтинги қуйидаги манзилга ўрнатилди:\n"
 "BLOG_URL\n"
 "\n"
-"Quyidagi ma'lumotlar bilan administrator paneliga kirishingiz mumkin:\n"
+"Қуйидаги маълумотлар билан сайт бошқарув панелига киришингиз мумкин:\n"
 "\n"
-"Login: USERNAME\n"
-"Parol: PASSWORD\n"
-"Bu yerga kirasiz: BLOG_URLwp-login.php\n"
+"Фойдаланувчи номи: USERNAME\n"
+"Парол: PASSWORD\n"
+"Тизимга кириш учун манзил: BLOG_URLwp-login.php\n"
 "\n"
-"Yangi saytingiz Sizga yoqadi degan umiddamiz. Rahmat!\n"
+"Янги сайтингиз Сизга ёқади деган умиддамиз. Раҳмат!\n"
 "\n"
-"SITE_NAME sayti jamoasi"
+"--«SITE_NAME» сайти маъмурияти"
 
 #: wp-includes/media.php:3351
 msgid "Drag and drop to reorder media files."
-msgstr "Media fayllarni qayta tartiblash uchun ushlab suring."
+msgstr "Медиа файлларни қайт тартиблаш учун судраб кўчиринг."
 
 #. translators: 1: 'text_direction' argument, 2: bloginfo() function name, 3:
 #. is_rtl() function name
 #: wp-includes/general-template.php:724
 msgid "The %1$s option is deprecated for the family of %2$s functions. Use the %3$s function instead."
-msgstr "%2$s funksiyalar oilasi uchun %1$s tanlovi eskirgan. Uning o'rniga %3$s funksiyasidan foydalaning."
+msgstr "%2$s функциялар оиласи учун %1$s танлови эскирган. Унинг ўрнига %3$s  функциясидан фойдаланинг."
 
 #. translators: 1: 'siteurl'/'home' argument, 2: bloginfo() function name, 3:
 #. 'url' argument
 #: wp-includes/general-template.php:651
 msgid "The %1$s option is deprecated for the family of %2$s functions. Use the %3$s option instead."
-msgstr "%2$s funksiyalar oilasi uchun %1$s tanlovi eskirgan. Uning o'rniga %3$s funksiyasidan foydalaning."
+msgstr "%2$s функциялар оиласи учун %1$s танлови эскирган. Унинг ўрнига %3$s танловидан фойдаланинг."
 
 #. translators: %s: post title
 #: wp-includes/comment-template.php:1456
 msgid "No Comments<span class=\"screen-reader-text\"> on %s</span>"
-msgstr "<span class=\"screen-reader-text\">%s ga</span> fikr bildirilmagan."
+msgstr "<span class=\"screen-reader-text\">%s мақоласига</span> шарҳ киритилмаган."
 
 #: wp-includes/widgets/class-wp-widget-archives.php:91
 msgid "Select Post"
-msgstr "Mақолаni tanlang"
+msgstr "Mақолани танланг"
 
 #: wp-includes/widgets/class-wp-widget-archives.php:88
 msgid "Select Week"
-msgstr "Haftani tanlang"
+msgstr "Ҳафтани танланг"
 
 #: wp-includes/widgets/class-wp-widget-archives.php:85
 msgid "Select Day"
-msgstr "Kunni tanlang"
+msgstr "Кунни танланг"
 
 #: wp-includes/widgets/class-wp-widget-archives.php:79
 msgid "Select Year"
-msgstr "Yilni tanlang"
+msgstr "Йилни танланг"
 
 #. translators: %s: post title
 #: wp-includes/comment-template.php:1472
 msgid "Comments Off<span class=\"screen-reader-text\"> on %s</span>"
-msgstr "<span class=\"screen-reader-text\">%s</span>da fikr bildirishni o'chirish"
+msgstr "<span class=\"screen-reader-text\">%s</span> мақоласига шарҳ киритишни ўчириш"
 
 #. translators: 1: Number of comments 2: post title
 #: wp-includes/comment-template.php:1466
 msgid "%1$s Comment<span class=\"screen-reader-text\"> on %2$s</span>"
 msgid_plural "%1$s Comments<span class=\"screen-reader-text\"> on %2$s</span>"
-msgstr[0] "<span class=\"screen-reader-text\"> %2$s ga</span> %1$s fikr bildirilgan"
+msgstr[0] "<span class=\"screen-reader-text\"> %2$s </span> мақоласига %1$sта шарҳ киритилган"
 
 #. translators: %s: post title
 #: wp-includes/comment-template.php:1461
 msgid "1 Comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr "<span class=\"screen-reader-text\"> %s ga</span> 1 fikr bildirilgan"
+msgstr "<span class=\"screen-reader-text\"> %s мақоласига</span> 1 шарҳ киритилган"
 
 #: wp-includes/class-wp-customize-nav-menus.php:783
 #: wp-includes/class-wp-editor.php:1421 wp-includes/media-template.php:813
 msgid "Link Text"
-msgstr "Havola matni"
+msgstr "Ҳавола матни"
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:87
 msgid "Live Preview"
-msgstr "Amalda ko'rish"
+msgstr "Амалда кўриш"
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:102
 #: wp-includes/customize/class-wp-customize-themes-section.php:70
 msgid "Theme Details"
-msgstr "Shablon ma'lumotlari"
+msgstr "Шаблон маълумотлари"
 
 #: wp-includes/link-template.php:2501
 msgctxt "previous post"
 msgid "Previous"
-msgstr "Avvalgi"
+msgstr "Аввалги"
 
 #: wp-includes/link-template.php:2502
 msgctxt "next post"
 msgid "Next"
-msgstr "Keyingi"
+msgstr "Кейинги"
 
 #: wp-includes/taxonomy.php:610
 msgid "No categories found."
-msgstr "Bo'limlar topilmadi."
+msgstr "Туркумлар топилмади."
 
 #: wp-includes/class-wp-editor.php:1042 wp-includes/script-loader.php:94
 msgid "Distraction-free writing mode"
-msgstr "To'liq ekranli rejim"
+msgstr "Тўлиқ экранли режим"
 
 #. translators: 1: Theme support 2: hook name
 #: wp-includes/theme.php:1704
 msgid "Theme support for %1$s should be registered before the %2$s hook."
-msgstr "%1$s funksiya ishlashi temada %2$s dan oldin ro'yxatdan o'tkazilishi kerak."
+msgstr "%1$s функцияси шаблонда ишлаши учун  %2$s ҳаракатидан аввал рўйхатдан ўтказилиши керак."
 
 #: wp-includes/class-wp-customize-widgets.php:731
 msgid "Widget moved down"
-msgstr "Vidjet pastga ko'chirildi"
+msgstr "Виджет пастга кўчирилди"
 
 #: wp-includes/class-wp-customize-widgets.php:730
 msgid "Widget moved up"
-msgstr "Vidjet tepaga ko'chirildi"
+msgstr "Виджет тепага кўчирилди"
 
 #: wp-includes/class-wp-editor.php:1058
 msgid "Elements path"
-msgstr "Elementlar joyi"
+msgstr "Элементлар йўли"
 
 #: wp-includes/class-wp-editor.php:1066
 msgid "To move focus to other buttons use Tab or the arrow keys. To return focus to the editor press Escape or use one of the buttons."
-msgstr "Fokusni boshqa tugmalarga o'tkazish uchun Tab yoki ko'rsatkich tugmalaridan foydalaning. Muharrir maydonchasiga qaytish uchun esa Escape yoki boshqa bir tugmani bosing."
+msgstr "Фокусни бошқа тугмаларга ўтказиш учун Tab ёки кўрсаткич тугмаларидан фойдаланинг. Таҳрирлаш майдончасига қайтиш учун Escape ёки бошқа тугмани босинг."
 
 #: wp-includes/class-wp-editor.php:1057
 msgid "Editor toolbar"
-msgstr "Asboblar paneli tahriri"
+msgstr "Таҳрирлаш панели"
 
 #: wp-includes/class-wp-editor.php:1056
 msgid "Editor menu (when enabled)"
-msgstr "Menyu tahriri (agar yoqilgan bo'lsa)"
+msgstr "Таҳрирлаш менюси (агар ёқилган бўлса)"
 
 #: wp-includes/class-wp-editor.php:1054
 msgid "Focus shortcuts:"
-msgstr "Fokus tugmalari:"
+msgstr "Фокус тугмалари:"
 
 #: wp-includes/class-wp-editor.php:1024
 msgid "Rich Text Area. Press Alt-Shift-H for help"
-msgstr "Tahrirlash maydonchasi. Yordam uchun Alt-Shift-H ni bosing"
+msgstr "Таҳрирлаш майдончаси. Ёрдам учун Alt-Shift-H тугмаларини босинг"
 
 #. translators: 1: month, 2: day of month
 #: wp-includes/date.php:458
@@ -2090,7 +2090,7 @@ msgstr "Ko'rsatilgan nom va yorliqga ega bo'lgan element taksonomiyada mavjud."
 #: wp-includes/media-template.php:433 wp-includes/media-template.php:534
 msgctxt "verb"
 msgid "Trash"
-msgstr "O'chirib tashlash"
+msgstr "Ўчириш"
 
 #: wp-includes/pluggable.php:1449
 msgid "You can see all comments on this post here:"
@@ -2118,15 +2118,15 @@ msgstr "URL: %s"
 #: wp-includes/media.php:3369
 msgctxt "noun"
 msgid "Trash"
-msgstr "O'chirib tashlanganlar"
+msgstr "Ахлат челак"
 
 #: wp-includes/media-template.php:591
 msgid "Edit Selection"
-msgstr "Belgilashni o'zgartirish"
+msgstr "Белгилашни ўзгартириш"
 
 #: wp-includes/link-template.php:2447
 msgid "Newer posts"
-msgstr "Yangiroq мақолаlar"
+msgstr "Янгироқ мақолалар"
 
 #: wp-includes/link-template.php:2448 wp-includes/link-template.php:2503
 #: wp-includes/link-template.php:2548
@@ -2518,17 +2518,17 @@ msgstr "Ushbu sayt endi mavjud emas."
 
 #: wp-includes/comment.php:2920
 msgid "<strong>ERROR</strong>: The comment could not be saved. Please try again later."
-msgstr "<strong>XATO</strong>: Fikr xotiraga olinmadi. Iltimos keyinroq yana urinib ko'ring."
+msgstr "<strong>ХАТО</strong>: Fikr xotiraga olinmadi. Iltimos keyinroq yana urinib ko'ring."
 
 #. translators: %s: header width in pixels
 #: wp-includes/customize/class-wp-customize-header-image-control.php:185
 msgid "While you can crop images to your liking after clicking <strong>Add new image</strong>, your theme recommends a header width of %s pixels."
-msgstr ""
+msgstr "Нажав кнопку <strong>&laquo;Добавить&raquo;</strong>, можно загрузить и обрезать изображение по своему усмотрению, однако в вашей теме оформления рекомендуется заголовок шириной %s пикселей."
 
 #. translators: %s: header height in pixels
 #: wp-includes/customize/class-wp-customize-header-image-control.php:190
 msgid "While you can crop images to your liking after clicking <strong>Add new image</strong>, your theme recommends a header height of %s pixels."
-msgstr ""
+msgstr "Нажав кнопку <strong>&laquo;Добавить&raquo;</strong>, можно загрузить и обрезать изображение по своему усмотрению, однако в вашей теме оформления рекомендуется заголовок высотой %s пикселей."
 
 #. translators: %s: the site/panel title in the Customizer
 #: wp-includes/class-wp-customize-panel.php:372
@@ -2561,7 +2561,7 @@ msgstr "Agar Siz Microsoft Word dasturidan nusxa olingan maxsus formatli matnni 
 #. translators: %s: header size in pixels
 #: wp-includes/customize/class-wp-customize-header-image-control.php:180
 msgid "While you can crop images to your liking after clicking <strong>Add new image</strong>, your theme recommends a header size of %s pixels."
-msgstr ""
+msgstr "Нажав кнопку <strong>&laquo;Добавить&raquo;</strong>, можно загрузить и обрезать изображение по своему усмотрению, однако в вашей теме оформления рекомендуется заголовок размером %s пикселей."
 
 #: wp-includes/class-wp-editor.php:1051
 msgid "Keyboard Shortcuts"
@@ -2569,11 +2569,11 @@ msgstr "Klaviatura belgilari"
 
 #: wp-login.php:788
 msgid "<strong>ERROR</strong>: Cookies are blocked due to unexpected output. For help, please see <a href=\"%1$s\">this documentation</a> or try the <a href=\"%2$s\">support forums</a>."
-msgstr "<strong>XATO</strong>: Kutilmagan xatolik tufayli cookielar bloklandi. Yordam olish uchun <a href=\"%1$s\">bu xujjat</a> yoki <a href=\"%2$s\">yordam forumlariga</a> murojaat qiling."
+msgstr "<strong>ХАТО</strong>: Kutilmagan xatolik tufayli cookielar bloklandi. Yordam olish uchun <a href=\"%1$s\">bu xujjat</a> yoki <a href=\"%2$s\">yordam forumlariga</a> murojaat qiling."
 
 #: wp-login.php:792
 msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href=\"%s\">enable cookies</a> to use WordPress."
-msgstr "<strong>XATO</strong>: Brauzeringizda kuki(Cookies )lar o'chirilgan yoki bloklangan. WordPressdan foydalanishingiz uchun <a href=\"%s\">kukilarni faollashtirish</a>ingiz kerak bo'ladi.."
+msgstr "<strong>ХАТО</strong>: Brauzeringizda kuki(Cookies )lar o'chirilgan yoki bloklangan. WordPressdan foydalanishingiz uchun <a href=\"%s\">kukilarni faollashtirish</a>ingiz kerak bo'ladi.."
 
 #: wp-includes/media-template.php:1008
 msgid "Link CSS Class"
@@ -2598,131 +2598,131 @@ msgstr "Hech qaysi"
 
 #: wp-includes/class-wp-editor.php:851
 msgid "Font Family"
-msgstr "Family fonti"
+msgstr "Шрифт оиласи"
 
 #: wp-includes/class-wp-editor.php:852
 msgid "Font Sizes"
-msgstr "Harf o'lchami"
+msgstr "Ҳарф ўлчами"
 
 #: wp-includes/class-wp-editor.php:989
 msgid "Split table cell"
-msgstr "Split jadval"
+msgstr "Жадвал катагини бўлиш"
 
 #: wp-includes/media-template.php:238 wp-includes/media.php:3419
 msgid "Suggested image dimensions:"
-msgstr "Rasm afzalliklari"
+msgstr "Тавсия қилинган расм ўлчами"
 
 #: wp-includes/media-template.php:952
 msgid "Custom Size"
-msgstr "Hajmni boshqarish"
+msgstr "Махсус ўлчам"
 
 #: wp-includes/media-template.php:987
 msgid "Advanced Options"
-msgstr "Qo'shimcha sozlamalar"
+msgstr "Қўшима танловлар"
 
 #: wp-includes/media-template.php:991
 msgid "Image Title Attribute"
-msgstr "Rasm sarlavhasi sozlamalari"
+msgstr "Расм title атрибути"
 
 #: wp-includes/media-template.php:995
 msgid "Image CSS Class"
-msgstr "Rasm CSS lari"
+msgstr "Расм CSS синфи"
 
 #: wp-includes/media-template.php:383 wp-includes/media-template.php:562
 #: wp-includes/media.php:2124
 msgid "Artist"
-msgstr "Muallif"
+msgstr "Ижрочи"
 
 #: wp-includes/media-template.php:384 wp-includes/media-template.php:563
 #: wp-includes/media.php:2125
 msgid "Album"
-msgstr "Albom"
+msgstr "Альбом"
 
 #: wp-includes/media.php:2129
 msgid "Genre"
-msgstr "Janri"
+msgstr "Жанри"
 
 #: wp-includes/media.php:2130
 msgid "Year"
-msgstr "Yil"
+msgstr "Йил"
 
 #: wp-includes/media.php:2131
 msgctxt "video or audio"
 msgid "Length"
-msgstr "Uzunligi"
+msgstr "Узунлиги"
 
 #: wp-includes/media.php:3420
 msgid "There has been an error cropping your image."
-msgstr "Rasmni o'zgartirishdagi xatolik"
+msgstr "Расмни кесишда хатолик юз берди."
 
 #: wp-includes/media.php:3439
 msgid "Edit Audio Playlist"
-msgstr "Musiqiy pleylistni o'zgartirish"
+msgstr "Мусиқалар рўйхатини таҳрирлаш"
 
 #: wp-includes/media.php:3440
 msgid "&#8592; Cancel Audio Playlist"
-msgstr "&#8592; Musiqiy pl ni tugatish"
+msgstr "&#8592; Мусиқалар рўйхати тузишни бекор қилиш"
 
 #: wp-includes/media.php:3441
 msgid "Insert audio playlist"
-msgstr "Audio pleylist kiritish"
+msgstr "Мусиқалар рўйхатини киритиш"
 
 #: wp-includes/media.php:3442
 msgid "Update audio playlist"
-msgstr "Audio pleylistni yangilash"
+msgstr "Мусиқалар рўйхатини янгилаш"
 
 #: wp-includes/media.php:3443
 msgid "Add to audio playlist"
-msgstr "Audio pleylistga kiritish"
+msgstr "Мусиқалар рўйхатига қўшиш"
 
 #: wp-includes/media.php:3444
 msgid "Add to Audio Playlist"
-msgstr "Audio pleylistga kiritish"
+msgstr "Мусиқалар рўйхатига қўшиш"
 
 #: wp-includes/class-wp-customize-widgets.php:705
 msgctxt "Move widget"
 msgid "Move"
-msgstr "Ko'chirish"
+msgstr "Кўчириш"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:112
 msgid "Set image"
-msgstr "Rasm qo'yish"
+msgstr "Расм қўйиш"
 
 #: wp-includes/customize/class-wp-widget-area-customize-control.php:64
 msgctxt "Reorder widgets in Customizer"
 msgid "Reorder"
-msgstr "Qayta buyurish"
+msgstr "Қайта тартиблаш"
 
 #: wp-includes/customize/class-wp-widget-area-customize-control.php:65
 msgctxt "Cancel reordering widgets in Customizer"
 msgid "Done"
-msgstr "Bajarildi"
+msgstr "Бажарилди"
 
 #: wp-includes/class-wp-customize-widgets.php:726
 msgid "Save and preview changes before publishing them."
-msgstr "O'zgarishlarni chop etishdan oldin ko'ring va saqlang"
+msgstr "Ўзгаришларни чоп этишдан олдин кўриш ва сақлаш"
 
 #: wp-includes/class-wp-customize-widgets.php:728
 msgid "Trash widget by moving it to the inactive widgets sidebar."
-msgstr "Widgetni nofaol qilish uchun un o'chiring"
+msgstr "Виджетни ўчириш учун нофаол виджетлар гуруҳига кўчиринг"
 
 #: wp-includes/class-wp-customize-widgets.php:779
 msgid "Search Widgets"
-msgstr "Widjet qidirish"
+msgstr "Виджет қидириш"
 
 #: wp-includes/class-wp-customize-widgets.php:780
 msgid "Search widgets&hellip;"
-msgstr "Widget qidirish"
+msgstr "Виджет қидириш&hellip;"
 
 #: wp-includes/class-wp-editor.php:824
 msgctxt "TinyMCE"
 msgid "Headings"
-msgstr "Asosiylar"
+msgstr "Сарлавҳалар"
 
 #: wp-includes/media-template.php:1077 wp-includes/media-template.php:1166
 msgctxt "auto preload"
 msgid "Auto"
-msgstr "Avtomatik"
+msgstr "Автоматик"
 
 #: wp-includes/class-wp-customize-widgets.php:696
 msgid "Move to another area&hellip;"
@@ -2730,47 +2730,47 @@ msgstr "Boshqa joyga ko'chirish"
 
 #: wp-includes/media.php:3418
 msgid "Cropping&hellip;"
-msgstr "O'zgartirilayapti"
+msgstr "Кесиляпти&hellip;"
 
 #: wp-includes/media-template.php:1183
 msgid "Tracks (subtitles, captions, descriptions, chapters, or metadata)"
-msgstr "Kuzatiluvchilar (shiorlar, sarlavhalar, tasniflar, boblar, yoki meta ma'lumotlar)"
+msgstr "Мусиқалар (shiorlar, sarlavhalar, tasniflar, boblar, yoki meta ma'lumotlar)"
 
 #: wp-includes/class-wp-editor.php:822
 msgctxt "TinyMCE"
 msgid "Formats"
-msgstr "Formatlar"
+msgstr "Бичимлар"
 
 #: wp-includes/class-wp-editor.php:1011
 msgctxt "table cell scope attribute"
 msgid "Scope"
-msgstr "Qavs"
+msgstr "Scope атрибути"
 
 #: wp-includes/class-wp-editor.php:970
 msgctxt "table column"
 msgid "Column"
-msgstr "Qator"
+msgstr "Устун"
 
 #. translators: block tags
 #: wp-includes/class-wp-editor.php:833
 msgctxt "TinyMCE"
 msgid "Blocks"
-msgstr "Blok"
+msgstr "Блоклар"
 
 #: wp-includes/class-wp-editor.php:836
 msgctxt "HTML tag"
 msgid "Div"
-msgstr "Div"
+msgstr "Қатлам"
 
 #: wp-includes/class-wp-editor.php:837
 msgctxt "HTML tag"
 msgid "Pre"
-msgstr "Pre"
+msgstr "Бичимланмаган"
 
 #: wp-includes/class-wp-editor.php:841
 msgctxt "HTML elements"
 msgid "Inline"
-msgstr "Qatorda"
+msgstr "Қаторда"
 
 #: wp-includes/class-wp-editor.php:849
 msgctxt "editor button"
@@ -2779,108 +2779,108 @@ msgstr "Kod"
 
 #: wp-includes/class-wp-editor.php:873 wp-includes/script-loader.php:107
 msgid "Bulleted list"
-msgstr "Belgili ro'yxat"
+msgstr "Нуқтали рўйхат"
 
 #: wp-includes/class-wp-editor.php:875
 msgctxt "list style"
 msgid "Square"
-msgstr "Kvadrat"
+msgstr "Квадрат"
 
 #: wp-includes/class-wp-editor.php:877
 msgctxt "list style"
 msgid "Circle"
-msgstr "Aylana"
+msgstr "Айлана"
 
 #: wp-includes/class-wp-editor.php:878
 msgctxt "list style"
 msgid "Disc"
-msgstr "Disk"
+msgstr "Нуқта"
 
 #: wp-includes/class-wp-editor.php:879
 msgctxt "list style"
 msgid "Lower Greek"
-msgstr "Kichik grek harflari"
+msgstr "Кичик грек ҳарфлари"
 
 #: wp-includes/class-wp-editor.php:880
 msgctxt "list style"
 msgid "Lower Alpha"
-msgstr "Kichik lotin harflari"
+msgstr "Кичик лотин ҳарфлари"
 
 #: wp-includes/class-wp-editor.php:881
 msgctxt "list style"
 msgid "Upper Alpha"
-msgstr "Katta lotin harflari"
+msgstr "Катта лотин ҳарфлари"
 
 #: wp-includes/class-wp-editor.php:882
 msgctxt "list style"
 msgid "Upper Roman"
-msgstr "Katta rim harflari"
+msgstr "Катта рим ҳарфлари"
 
 #: wp-includes/class-wp-editor.php:883
 msgctxt "list style"
 msgid "Lower Roman"
-msgstr "Kichik rim harflari"
+msgstr "Кичик рим ҳарфлари"
 
 #: wp-includes/class-wp-editor.php:886
 msgctxt "Name of link anchor (TinyMCE)"
 msgid "Name"
-msgstr "Ism"
+msgstr "Исм"
 
 #: wp-includes/class-wp-editor.php:887
 msgctxt "Link anchor (TinyMCE)"
 msgid "Anchor"
-msgstr "Langar"
+msgstr "Лангар"
 
 #: wp-includes/class-wp-editor.php:888
 msgctxt "Link anchors (TinyMCE)"
 msgid "Anchors"
-msgstr "Langarlar"
+msgstr "Лангарлар"
 
 #: wp-includes/class-wp-editor.php:921
 msgctxt "editor button"
 msgid "Right to left"
-msgstr "O'ngdan chapga"
+msgstr "Ўнгдан чапга"
 
 #: wp-includes/class-wp-editor.php:922
 msgctxt "editor button"
 msgid "Left to right"
-msgstr "Chapdan o'nga"
+msgstr "Чапдан ўнгга"
 
 #: wp-includes/class-wp-editor.php:944
 msgctxt "find/replace"
 msgid "Replace"
-msgstr "Alomashtirish"
+msgstr "Алмаштириш"
 
 #: wp-includes/class-wp-editor.php:945
 msgctxt "find/replace"
 msgid "Next"
-msgstr "Keyingi"
+msgstr "Кейинги"
 
 #. translators: previous
 #: wp-includes/class-wp-editor.php:947
 msgctxt "find/replace"
 msgid "Prev"
-msgstr "Oldingi"
+msgstr "Аввалги"
 
 #: wp-includes/class-wp-editor.php:948
 msgctxt "find/replace"
 msgid "Whole words"
-msgstr "Almashtirish"
+msgstr "Бутун сўз"
 
 #: wp-includes/class-wp-editor.php:950
 msgctxt "find/replace"
 msgid "Replace with"
-msgstr "Topish"
+msgstr "Алмаштириш"
 
 #: wp-includes/class-wp-editor.php:951
 msgctxt "find/replace"
 msgid "Find"
-msgstr "Topish"
+msgstr "Топиш"
 
 #: wp-includes/class-wp-editor.php:952
 msgctxt "find/replace"
 msgid "Replace all"
-msgstr "Hammasini almashtirish"
+msgstr "Ҳаммасинин алмаштириш"
 
 #: wp-includes/class-wp-editor.php:955
 msgctxt "spellcheck"
@@ -2890,87 +2890,87 @@ msgstr "Tugatish"
 #: wp-includes/class-wp-editor.php:956
 msgctxt "spellcheck"
 msgid "Ignore all"
-msgstr "Rad etish"
+msgstr "Ҳаммасини рад этиш"
 
 #: wp-includes/class-wp-editor.php:957
 msgctxt "spellcheck"
 msgid "Ignore"
-msgstr "Rad etish"
+msgstr "Рад этиш"
 
 #: wp-includes/class-wp-editor.php:971
 msgctxt "table columns"
 msgid "Cols"
-msgstr "Qatorlar"
+msgstr "Устунлар"
 
 #: wp-includes/class-wp-editor.php:972
 msgctxt "table cell"
 msgid "Cell"
-msgstr "Chaqiriq"
+msgstr "Катак"
 
 #: wp-includes/class-wp-editor.php:974
 msgctxt "table header"
 msgid "Header"
-msgstr "Yuqori qism"
+msgstr "Бош қисм"
 
 #: wp-includes/class-wp-editor.php:975
 msgctxt "table body"
 msgid "Body"
-msgstr "Tanasi"
+msgstr "Асосий қисм"
 
 #: wp-includes/class-wp-editor.php:976
 msgctxt "table footer"
 msgid "Footer"
-msgstr "Pastki qism"
+msgstr "Қуйи қисм"
 
 #: wp-includes/class-wp-editor.php:1013
 msgctxt "TinyMCE"
 msgid "Insert template"
-msgstr "Shablon kiritish"
+msgstr "Шаблон киритиш"
 
 #: wp-includes/class-wp-editor.php:1014
 msgctxt "TinyMCE"
 msgid "Templates"
-msgstr "Shablonlar"
+msgstr "Шаблонлар"
 
 #: wp-includes/class-wp-editor.php:1018
 msgctxt "editor button"
 msgid "Show blocks"
-msgstr "Bloklarni ko'rsatish"
+msgstr "Блокларни кўрсатиш"
 
 #. translators: word count
 #: wp-includes/class-wp-editor.php:1022
 msgid "Words: %s"
-msgstr "So'zlar: %s"
+msgstr "Сўзлар: %s"
 
 #: wp-includes/class-wp-editor.php:1029
 msgctxt "TinyMCE menu"
 msgid "Insert"
-msgstr "Kiritish"
+msgstr "Киритиш"
 
 #: wp-includes/class-wp-editor.php:1030
 msgctxt "TinyMCE menu"
 msgid "File"
-msgstr "Fayl"
+msgstr "Файл"
 
 #: wp-includes/class-wp-editor.php:1031
 msgctxt "TinyMCE menu"
 msgid "Edit"
-msgstr "Tahrirlash"
+msgstr "Таҳрирлаш"
 
 #: wp-includes/class-wp-editor.php:1032
 msgctxt "TinyMCE menu"
 msgid "Tools"
-msgstr "Asboblar"
+msgstr "Асбоблар"
 
 #: wp-includes/class-wp-editor.php:1033
 msgctxt "TinyMCE menu"
 msgid "View"
-msgstr "Ko'rish"
+msgstr "Кўриш"
 
 #: wp-includes/class-wp-editor.php:1034
 msgctxt "TinyMCE menu"
 msgid "Table"
-msgstr "Jadval"
+msgstr "Жадвал"
 
 #: wp-includes/media-template.php:1065 wp-includes/media-template.php:1147
 msgid "Add alternate sources for maximum HTML5 playback:"
@@ -3274,7 +3274,7 @@ msgstr "Xatolik sodir bo'ldi. Iltimos, sahifani yangilang va yana urinib ko'ring
 
 #: wp-includes/class-wp-editor.php:855
 msgid "Align right"
-msgstr "O'n tomonga"
+msgstr "Ўнгга текислаш"
 
 #: wp-includes/class-wp-editor.php:874 wp-includes/script-loader.php:109
 msgid "Numbered list"
@@ -3290,7 +3290,7 @@ msgstr "O'zgatirilganlarni tozalash"
 
 #: wp-includes/class-wp-editor.php:854
 msgid "Align center"
-msgstr "Markazda"
+msgstr "Марказга текислаш"
 
 #: wp-includes/class-wp-editor.php:859
 msgid "Decrease indent"
@@ -3418,7 +3418,7 @@ msgstr "Ustunni o'chirish"
 
 #: wp-includes/class-wp-editor.php:1016
 msgid "Background color"
-msgstr "Orqa fon rangi"
+msgstr "Фон ран rangi"
 
 #: wp-includes/class-wp-editor.php:1017
 msgid "Text color"
@@ -3553,7 +3553,7 @@ msgstr "\"%s\" nomli shablon papkasi mavjud emas."
 
 #: wp-includes/functions.php:1224
 msgid "ERROR: This is not a valid feed template."
-msgstr "XATO: Bu yaroqli tasma shabloni emas."
+msgstr "ХАТО: Bu yaroqli tasma shabloni emas."
 
 #: wp-includes/post-template.php:1535
 msgid "This content is password protected. To view it please enter your password below:"
@@ -3696,9 +3696,7 @@ msgstr "Sabab: Sizning hostingingiz mail() funksiyasini taqiqlashi mumkin."
 
 #: wp-includes/user.php:2289
 msgid "<strong>ERROR</strong>: Couldn&#8217;t register you&hellip; please contact the <a href=\"mailto:%s\">webmaster</a> !"
-msgstr ""
-"<strong>XATO</strong>:\n"
-"Ro`yxatdan o`tib bo'lmaydi. Iltimos <a href=\"mailto:%s\">webmaster</a> bilan bog`laning !"
+msgstr "<strong>ХАТО</strong>: Регистрация не удалась. Пожалуйста, свяжитесь с <a href=\"mailto:%s\">администратором</a>!"
 
 #. translators: 1: date
 #: wp-includes/post-template.php:1627
@@ -3728,7 +3726,7 @@ msgstr "Siz emailingizni to`g`ri kiritdingizmi! Agar %s xato kiritgan bo`lsangiz
 #. translators: %s: site address
 #: wp-signup.php:853
 msgid "The site you were looking for, %s, does not exist, but you can create it now!"
-msgstr ""
+msgstr "Сайта, который вы ищете, <strong>%s</strong>, не существует. Но его можно создать прямо сейчас!"
 
 #: wp-includes/functions.php:5055
 msgid "The login page will open in a new window. After logging in you can close it and return to this page."
@@ -3753,12 +3751,12 @@ msgstr "Қидириш &hellip;"
 #: wp-includes/general-template.php:224 wp-includes/general-template.php:232
 msgctxt "label"
 msgid "Search for:"
-msgstr "Qidirshish:"
+msgstr "Қидириш:"
 
 #: wp-includes/general-template.php:227 wp-includes/general-template.php:234
 msgctxt "submit button"
 msgid "Search"
-msgstr "Izlash"
+msgstr "Қидириш"
 
 #: wp-includes/functions.php:5053 wp-includes/script-loader.php:448
 msgid "Session expired"
@@ -3766,7 +3764,7 @@ msgstr "Sessiya tugadi"
 
 #: wp-includes/taxonomy.php:610
 msgid "No tags found."
-msgstr "Teglar yoq"
+msgstr "Калит сўзлар мавжуд эмас"
 
 #: wp-includes/widgets/class-wp-widget-meta.php:71
 msgctxt "meta widget link text"
@@ -3775,28 +3773,28 @@ msgstr "WordPress.org"
 
 #: wp-includes/functions.wp-scripts.php:222
 msgid "Do not deregister the %1$s script in the administration area. To target the front-end theme, use the %2$s hook."
-msgstr ""
+msgstr "Не отменяйте регистрацию скрипта %1$s в панели управления. Чтобы сделать это только на внешней части сайта, используйте действие %2$s."
 
 #: wp-includes/class-wp-xmlrpc-server.php:426
 msgid "WordPress Address (URL)"
-msgstr "WordPress manzili (URL)"
+msgstr "WordPress Манзили (URL)"
 
 #: wp-includes/class-wp-xmlrpc-server.php:431
 msgid "Site Address (URL)"
-msgstr "Sayt manzili (URL)"
+msgstr "Сайт манзили (URL)"
 
 #: wp-includes/class-wp-xmlrpc-server.php:2420 wp-includes/user.php:1382
 #: wp-includes/user.php:1701 wp-includes/user.php:1707
 msgid "Invalid user ID."
-msgstr "Foydalanuvchi ID sida xatolik"
+msgstr "Фойдаланувчи Рақамида (ID) хатолик."
 
 #: wp-includes/media-template.php:747
 msgid "Random Order"
-msgstr "Tasodifiy tartib"
+msgstr "Тасадофий тартиб"
 
 #: wp-includes/media-template.php:478
 msgid "Caption this image&hellip;"
-msgstr "Rasmning sarlavhasi"
+msgstr "Бу расмга сарлавҳа&hellip;"
 
 #. translators: This is a would-be plural string used in the media manager.
 #. If there is not a word you can use in your language to avoid issues with
@@ -3804,96 +3802,96 @@ msgstr "Rasmning sarlavhasi"
 #. translate it.
 #: wp-includes/media.php:3350
 msgid "%d selected"
-msgstr "Tanlangan: %d"
+msgstr "%d танланди"
 
 #: wp-includes/media.php:3390
 msgid "Insert from URL"
-msgstr "URL qo'shish"
+msgstr "URL орқали қиритиш"
 
 #: wp-includes/widgets/class-wp-widget-links.php:147
 msgctxt "Links widget"
 msgid "Random"
-msgstr "Ixtiyoriy"
+msgstr "Тасодифий"
 
 #: wp-includes/media-template.php:1229 wp-includes/media.php:3366
 msgid "No items found."
-msgstr "Yangi xabar qo'yilmagan"
+msgstr "Медиа топилмади"
 
 #: wp-includes/media.php:3403
 msgid "Add to Gallery"
-msgstr "Galereyaga qo'shish"
+msgstr "Галереяга қўшиш"
 
 #: wp-includes/media.php:3404
 msgid "Reverse order"
-msgstr "Teskari Saralash"
+msgstr "Тескари тартиб"
 
 #: wp-includes/post.php:1463
 msgid "Set featured image"
-msgstr "Belgilangan rasm qilish"
+msgstr "Расмларни танланган қилиш"
 
 #: wp-includes/media-template.php:471
 msgid "Deselect"
-msgstr "Qayta belgilash"
+msgstr "Танламаслик"
 
 #: wp-includes/class-wp-xmlrpc-server.php:4557
 #: wp-includes/class-wp-xmlrpc-server.php:4570
 msgid "Sorry, that file cannot be edited."
-msgstr "Kechirasiz, faylni o'zgartirib bo'lmaydi."
+msgstr "Кечирасиз, бу файлни таҳрирлаб бўлмайди."
 
 #: wp-includes/media.php:3371
 msgid ""
 "You are about to permanently delete this item.\n"
 "  'Cancel' to stop, 'OK' to delete."
 msgstr ""
-"Siz hozir bu narsani butunlay o'chirib yuborish arafasidasiz.\n"
-"Bekor qilish uchun 'Bekor qilish', o'chirish uchun 'OK' tugmasini bosing."
+"Бу медиа файлни бутунлай ўчириб юбормоқчисиз.\n"
+"Бекор қилиш учун 'Бекор қилиш', ўчириш учун 'Тасдиқлаш' тугмасинин босинг."
 
 #: wp-includes/media-template.php:436 wp-includes/media-template.php:537
 #: wp-includes/media.php:3379
 msgid "Delete Permanently"
-msgstr "Butunlay o'chirish"
+msgstr "Бутунлай ўчириш"
 
 #: wp-includes/media-template.php:196
 msgid "Upload Limit Exceeded"
-msgstr "Yuklama hajmi oshib ketdi"
+msgstr "Юклаш хажми чекловидан ошиб кетди"
 
 #: wp-includes/media-template.php:261
 msgid "Dismiss Errors"
-msgstr "Xatolarni bartaraf etish"
+msgstr "Хатоларни бартараф этиш"
 
 #: wp-includes/media.php:2859
 msgid "No editor could be selected."
-msgstr "Tanlama uchun tahrirchi yo'q"
+msgstr "Танланма учун таҳрирчи йўқ"
 
 #: wp-includes/media-template.php:260
 msgid "Uploading"
-msgstr "Yuklanmoqda"
+msgstr "Юкланмоқда"
 
 #: wp-includes/post.php:2338
 msgid "Manage Images"
-msgstr "Audio menedjeri"
+msgstr "Расмларни бошқариш"
 
 #: wp-includes/post.php:2338
 msgid "Image <span class=\"count\">(%s)</span>"
 msgid_plural "Images <span class=\"count\">(%s)</span>"
-msgstr[0] "Rasm <span class=\"count\">(%s)</span>"
+msgstr[0] "Расм <span class=\"count\">(%s)</span>"
 
 #: wp-includes/post.php:2339
 msgid "Manage Audio"
-msgstr "Audiofayllarni boshqarish"
+msgstr "Аудиоларни бошқариш"
 
 #: wp-includes/post.php:2339
 msgid "Audio <span class=\"count\">(%s)</span>"
 msgid_plural "Audio <span class=\"count\">(%s)</span>"
-msgstr[0] "Audolar <span class=\"count\">(%s)</span>"
+msgstr[0] "Аудио <span class=\"count\">(%s)</span>"
 
 #: wp-includes/post.php:2340
 msgid "Video"
-msgstr "Video"
+msgstr "Видео"
 
 #: wp-includes/post.php:2340
 msgid "Manage Video"
-msgstr "Videolarni boshqarish"
+msgstr "Видеоларни бошқариш"
 
 #: wp-includes/post.php:2340
 msgid "Video <span class=\"count\">(%s)</span>"
@@ -3902,50 +3900,50 @@ msgstr[0] "Video <span class=\"count\">(%s)</span>"
 
 #: wp-includes/post.php:1460
 msgid "Insert into page"
-msgstr "Sahifa ichiga joylamoq"
+msgstr "Саҳифа ичига жойлаш"
 
 #: wp-includes/post.php:1461
 msgid "Uploaded to this page"
-msgstr "Ushbu sahifaga yuklangan"
+msgstr "Ушбу саҳифага юкланган"
 
 #: wp-includes/media.php:3364
 msgid "All media items"
-msgstr "Barcha media fayllar"
+msgstr "Барча медиа файллар"
 
 #: wp-includes/post.php:1461
 msgid "Uploaded to this post"
-msgstr "Ushbu postga yuklangan"
+msgstr "Ушбу мақолага юкланган"
 
 #: wp-includes/post.php:2339
 msgid "Audio"
-msgstr "Audio"
+msgstr "Аудио"
 
 #: wp-includes/media.php:3363
 msgid "&#8592; Return to library"
-msgstr "&#8592; To'plamga qaytish"
+msgstr "&#8592; Тўпламга қайтиш"
 
 #: wp-includes/media-template.php:668 wp-includes/media-template.php:865
 #: wp-includes/media-template.php:978
 msgid "Custom URL"
-msgstr "Tanlangan Yo'llanmalar"
+msgstr "Махсус URL"
 
 #: wp-includes/media-template.php:494 wp-includes/media.php:3387
 msgid "Attachment Details"
-msgstr "Qistirma tavsiloti"
+msgstr "Илова тафсилоти"
 
 #: wp-includes/media-template.php:398 wp-includes/media-template.php:577
 #: wp-includes/media-template.php:836
 msgid "Alt Text"
-msgstr "Alternativ tekst"
+msgstr "Муқобил матн"
 
 #: wp-includes/media-template.php:733
 msgid "Columns"
-msgstr "Ustunlar"
+msgstr "Устунлар"
 
 #: wp-includes/media-template.php:689 wp-includes/media-template.php:764
 #: wp-includes/media-template.php:938 wp-includes/media.php:3098
 msgid "Large"
-msgstr "Katta"
+msgstr "Катта"
 
 #: wp-includes/media-template.php:601
 msgid "Attachment Display Settings"
@@ -4080,7 +4078,7 @@ msgstr "Iltimos haqiqiy email kiriting"
 
 #: wp-includes/user.php:2232
 msgid "<strong>ERROR</strong>: This username is already registered. Please choose another one."
-msgstr "<strong>XATO</strong>: Ushbu nom ro'yhatdan o'tgan. Iltimos boshqasini tanlang."
+msgstr "<strong>ХАТО</strong>: Ushbu nom ro'yhatdan o'tgan. Iltimos boshqasini tanlang."
 
 #: wp-includes/class-wp-image-editor-gd.php:97
 #: wp-includes/class-wp-image-editor-imagick.php:138
@@ -4490,7 +4488,7 @@ msgstr "Ko'rsatiladigan yollanmalar soni:"
 
 #: wp-includes/class-wp-theme.php:249
 msgid "ERROR: The themes directory is either empty or doesn&#8217;t exist. Please check your installation."
-msgstr "XATO: Mavzular katalogida xech narsa yo'q yoki mavjud emas. Iltimos sayt to'g'ri ornatilganligini tekshiring."
+msgstr "ХАТО: Mavzular katalogida xech narsa yo'q yoki mavjud emas. Iltimos sayt to'g'ri ornatilganligini tekshiring."
 
 #: wp-includes/class-wp-theme.php:253
 msgid "Stylesheet is not readable."
@@ -4533,7 +4531,7 @@ msgstr "&mdash; Belgilang &mdash;"
 #. translators: %s: document title from the preview
 #: wp-includes/class-wp-customize-manager.php:1525
 msgid "Customize: %s"
-msgstr ""
+msgstr "Созлаш: %s"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1312
 #: wp-includes/class-wp-xmlrpc-server.php:5198
@@ -4568,7 +4566,7 @@ msgstr "Sytni o'zgartirish"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1795
 msgid "You are not allowed to edit posts in this post type."
-msgstr ""
+msgstr "Извините, вам не разрешено редактировать записи этого типа"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1348
 #: wp-includes/class-wp-xmlrpc-server.php:4920
@@ -4652,7 +4650,7 @@ msgstr "&laquo;"
 #: wp-includes/formatting.php:90
 msgctxt "closing curly double quote"
 msgid "&#8221;"
-msgstr "&raquo;"
+msgstr "&#187;"
 
 #. translators: apostrophe, for example in 'cause or can't
 #: wp-includes/formatting.php:93
@@ -4691,7 +4689,7 @@ msgstr "Qidiruv tizimlari saytni indexlashi uchun ruxsat berish."
 #. translators: %s: wp-config.php
 #: wp-load.php:87
 msgid "You can create a %s file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file."
-msgstr ""
+msgstr "Можно создать файл <code>wp-config.php</code> через веб-интерфейс, но это работает не на всех серверах. Наиболее надёжный способ &#8212; создать файл вручную."
 
 #: wp-load.php:90
 msgid "Create a Configuration File"
@@ -4703,7 +4701,7 @@ msgstr "Sizning <a href=\"%1$s\">%2$s</a>dagi saytingiz faol. Endi o'zingiz tanl
 
 #: wp-signup.php:457
 msgid "<a href=\"%1$s\">%2$s</a> is your new site. <a href=\"%3$s\">Log in</a> as &#8220;%4$s&#8221; using your existing password."
-msgstr ""
+msgstr "<a href=\"http://%1$s\">http://%2$s</a> &#8212; ваш новый сайт. <a href=\"%3$s\">Войдите</a> как &laquo;%4$s&raquo;, используя ваш пароль."
 
 #: wp-activate.php:97
 msgid "Your account has been activated. You may now <a href=\"%1$s\">log in</a> to the site using your chosen username of &#8220;%2$s&#8221;. Please check your email inbox at %3$s for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href=\"%4$s\">reset your password</a>."
@@ -4725,7 +4723,7 @@ msgstr "Янги"
 #: wp-includes/admin-bar.php:694
 msgid "%s comment awaiting moderation"
 msgid_plural "%s comments awaiting moderation"
-msgstr[0] "%s fikr tasdiqlash jarayonida."
+msgstr[0] "%sта шарҳ тасдиқланишни кутмоқда."
 
 #: wp-includes/script-loader.php:283
 msgid "%s exceeds the maximum upload size for the multi-file uploader when used in your browser."
@@ -4742,13 +4740,13 @@ msgstr "&#8220;%s&#8221;ni yuklashning imkoni bo'lmadi."
 #: wp-includes/widgets/class-wp-widget-links.php:133
 msgctxt "links widget"
 msgid "All Links"
-msgstr "Barcha Linklar"
+msgstr "Барча ҳаволалар"
 
 #. translators: en dash
 #: wp-includes/formatting.php:106
 msgctxt "en dash"
 msgid "&#8211;"
-msgstr "&#8211;"
+msgstr "&#8212;"
 
 #. translators: em dash
 #: wp-includes/formatting.php:108
@@ -4758,11 +4756,11 @@ msgstr "&#8212;"
 
 #: wp-includes/class-wp-admin-bar.php:130
 msgid "The menu ID should not be empty."
-msgstr "Menyu IDsi bo&lsquo;sh bo&lsquo;lmasligi lozim."
+msgstr "Меню IDси бўш бўлмаслиги лозим."
 
 #: wp-includes/admin-bar.php:110 wp-includes/admin-bar.php:119
 msgid "About WordPress"
-msgstr "WordPress haqida"
+msgstr "WordPress ҳақида"
 
 #: wp-includes/script-loader.php:271
 msgid "%s exceeds the maximum upload size for this site."
@@ -4770,39 +4768,39 @@ msgstr "%s ushbu saytga o&lsquo;rnatilgan fayl yuklash bo&lsquo;yicha maksimum h
 
 #: wp-includes/admin-bar.php:152
 msgid "Feedback"
-msgstr "Fikr bildirish"
+msgstr "Фикр билдириш"
 
 #: wp-includes/comment.php:2902
 msgid "<strong>ERROR</strong>: please type a comment."
-msgstr "<strong>XATO</strong>: iltimos, fikr matnini kiriting."
+msgstr "<strong>ХАТО</strong>: илтимос, шарҳ матнини киритинг."
 
 #: wp-includes/comment.php:2885
 msgid "<strong>ERROR</strong>: please enter a valid email address."
-msgstr "<strong>XATO</strong>: elektron pochtani to&lsquo;g&lsquo;ri kiriting, iltimos."
+msgstr "<strong>ХАТО</strong>: илтимос, яроқли электрон почта манзилини киритинг."
 
 #: wp-includes/comment.php:2883
 msgid "<strong>ERROR</strong>: please fill the required fields (name, email)."
-msgstr "<strong>XATO</strong>: shart bo&lsquo;lgan bo&lsquo;shliqlarni to&lsquo;ldiring (ism, email)."
+msgstr "<strong>ХАТО</strong>: илтимос, шарт бўлган майдонларни (исм, электрон почта) тўлдиринг."
 
 #: wp-includes/script-loader.php:640
 msgid "Could not load the preview image. Please reload the page and try again."
-msgstr "Tasvirni oldindan ko&lsquo;rish uchun yuklab bo&lsquo;lmadi. Iltimos, sahifani yangilang va qaytadan urinib ko&lsquo;ring."
+msgstr "Расмни олдиндан кўриш учун юклаб бўлмади. Илтмос, саҳифани янгиланг ва қайтадан уриниб кўринг."
 
 #: wp-includes/ms-deprecated.php:398
 msgid "<strong>ERROR</strong>: Site URL already taken."
-msgstr "<strong>XATO</strong>: Sayt URL manzili allaqachon olingan."
+msgstr "<strong>ХАТО</strong>: Сайт URL манзили банд қилинган."
 
 #: wp-includes/ms-deprecated.php:405
 msgid "<strong>ERROR</strong>: problem creating site entry."
-msgstr "<strong>XATO</strong>: мақолаni kiritishdagi muammo"
+msgstr "<strong>ХАТО</strong>: мақолани киритишда муаммо юз берди."
 
 #: wp-includes/admin-bar.php:136
 msgid "Documentation"
-msgstr "Qo&lsquo;llanma"
+msgstr "Қўлланма"
 
 #: wp-includes/admin-bar.php:144
 msgid "Support Forums"
-msgstr "Yordamchi Forumlar"
+msgstr "Қўллаб-қувватлаш форуми"
 
 #: wp-includes/formatting.php:2946 wp-includes/general-template.php:3137
 msgid "&hellip;"
@@ -4810,7 +4808,7 @@ msgstr "&hellip;"
 
 #: wp-includes/functions.php:3594
 msgid "Database Error"
-msgstr "Ma&rsquo;lumotlar Bazasida Xatolik"
+msgstr "Маълумотлра базасида хатолик"
 
 #: wp-includes/functions.php:3598 wp-includes/ms-load.php:286
 #: wp-includes/wp-db.php:1535
@@ -4839,7 +4837,7 @@ msgstr "Калит сўзлар"
 #: wp-includes/taxonomy.php:596
 msgctxt "taxonomy singular name"
 msgid "Tag"
-msgstr "Belgi"
+msgstr "Калит сўз"
 
 #: wp-includes/functions.wp-scripts.php:42
 msgid "Scripts and styles should not be registered or enqueued until the %1$s, %2$s, or %3$s hooks."
@@ -4918,7 +4916,7 @@ msgstr "Барча саҳифалар"
 
 #: wp-includes/link-template.php:2789 wp-includes/link-template.php:2838
 msgid "Comments navigation"
-msgstr ""
+msgstr "Навигация по комментариям"
 
 #: wp-includes/class-walker-comment.php:244
 msgid "Pingback:"
@@ -4951,7 +4949,7 @@ msgstr "So'rovni yakunlay oladigan birorta ham bo'sh HTTP-transport mavjud emas.
 #: wp-includes/taxonomy.php:123 wp-includes/taxonomy.php:124
 msgctxt "post format"
 msgid "Format"
-msgstr "Shakl"
+msgstr "Бичим"
 
 #: wp-includes/class-wp-editor.php:1415
 msgid "Enter the destination URL"
@@ -5035,42 +5033,42 @@ msgstr "Yozuvlar sonining butun sonli parametri eskirgan hisoblanadi. O'rniga ar
 #: wp-includes/post-formats.php:91
 msgctxt "Post format"
 msgid "Aside"
-msgstr "Qayd"
+msgstr "Қайд"
 
 #: wp-includes/post-formats.php:92
 msgctxt "Post format"
 msgid "Chat"
-msgstr "Chat"
+msgstr "Чат"
 
 #: wp-includes/post-formats.php:93
 msgctxt "Post format"
 msgid "Gallery"
-msgstr "Galereya"
+msgstr "Галерея"
 
 #: wp-includes/post-formats.php:94
 msgctxt "Post format"
 msgid "Link"
-msgstr "Havola"
+msgstr "Ҳавола"
 
 #: wp-includes/post-formats.php:95
 msgctxt "Post format"
 msgid "Image"
-msgstr "Tasvir"
+msgstr "Расм"
 
 #: wp-includes/post-formats.php:96
 msgctxt "Post format"
 msgid "Quote"
-msgstr "Iqtibos"
+msgstr "Иқтибос"
 
 #: wp-includes/post-formats.php:97
 msgctxt "Post format"
 msgid "Status"
-msgstr "Status"
+msgstr "Статус"
 
 #: wp-includes/post-formats.php:98
 msgctxt "Post format"
 msgid "Video"
-msgstr "Video"
+msgstr "Видео"
 
 #: wp-includes/post.php:1456
 msgid "No pages found in Trash."
@@ -5078,7 +5076,7 @@ msgstr "O'chirib yuborilgan sahifalar topilmadi."
 
 #: wp-includes/post.php:1455
 msgid "No pages found."
-msgstr "Саҳифалар topilmadi."
+msgstr "Саҳифалар топилмади."
 
 #: wp-includes/post.php:1456
 msgid "No posts found in Trash."
@@ -5086,7 +5084,7 @@ msgstr "O'chirib yuborilgan yozuvlar topilmadi."
 
 #: wp-includes/admin-bar.php:530
 msgid "Shortlink"
-msgstr "Qisqa havola"
+msgstr "Қисқа ҳавола"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1394
 #: wp-includes/class-wp-xmlrpc-server.php:3930
@@ -5166,7 +5164,7 @@ msgstr "Sizning yangi parolingiz joriy etildi."
 
 #: wp-login.php:325
 msgid "Someone has requested a password reset for the following account:"
-msgstr ""
+msgstr "Кто-то запросил сброс пароля для следующей учётной записи:"
 
 #: wp-login.php:328
 msgid "If this was a mistake, just ignore this email and nothing will happen."
@@ -5191,7 +5189,7 @@ msgstr "Шарҳларни бошқариш"
 #. translators: %s: taxonomy name
 #: wp-includes/post.php:3389
 msgid "Invalid taxonomy: %s."
-msgstr ""
+msgstr "Неверная таксономия: %s."
 
 #: wp-includes/query.php:2526
 msgid "\"caller_get_posts\" is deprecated. Use \"ignore_sticky_posts\" instead."
@@ -5269,7 +5267,7 @@ msgstr "%1$s sayti %2$s asosida ishlayotganligidan fahrlanadi!"
 #. translators: 1: site link, 2: search query
 #: wp-includes/theme-compat/sidebar.php:71
 msgid "You have searched the %1$s blog archives for <strong>&#8216;%2$s&#8217;</strong>. If you are unable to find anything in these search results, you can try one of these links."
-msgstr ""
+msgstr "Вы искали <strong>&laquo;%3$s&raquo;</strong> в архиве блога <a href=\"%1$s/\">&laquo;%2$s&raquo;</a>. Если вам не удалось ничего найти в результатах поиска, можно попробовать одну из следующих ссылок."
 
 #: wp-includes/theme-compat/sidebar.php:49
 msgid "l, F jS, Y"
@@ -5408,7 +5406,7 @@ msgstr "<strong>VHOST va SUBDOMAIN_INSTALL konstantlari uchun qarama-qarshilik k
 
 #: wp-includes/user.php:2229
 msgid "<strong>ERROR</strong>: This username is invalid because it uses illegal characters. Please enter a valid username."
-msgstr "<strong>XATO</strong>: Ushbu foydalanuvchi ismida ruxsat berilmagan belgilar borligi sababli yaroqsiz. Iltimos, to'g'ri foydalanuvchi ismi kiriting."
+msgstr "<strong>ХАТО</strong>: Ushbu foydalanuvchi ismida ruxsat berilmagan belgilar borligi sababli yaroqsiz. Iltimos, to'g'ri foydalanuvchi ismi kiriting."
 
 #: wp-includes/comment-template.php:2136
 msgid "Required fields are marked %s"
@@ -5420,7 +5418,7 @@ msgstr "Majburiy ma'lumotlar %s bilan belgilangan"
 #: wp-includes/theme-compat/header.php:16
 #: wp-includes/theme-compat/sidebar.php:16
 msgid "Please include a %s template in your theme."
-msgstr ""
+msgstr "Пожалуйста, включите шаблон %1$s в вашу тему."
 
 #. translators: %s: template name
 #: wp-includes/theme-compat/comments.php:12
@@ -5428,7 +5426,7 @@ msgstr ""
 #: wp-includes/theme-compat/header.php:12
 #: wp-includes/theme-compat/sidebar.php:12
 msgid "Theme without %s"
-msgstr ""
+msgstr "Тема без %1$s"
 
 #: wp-includes/class-wp-xmlrpc-server.php:4413
 msgid "Sorry, you do not have access to user data on this site."
@@ -5904,7 +5902,7 @@ msgstr "Yaroqli e-pochta manzili talab qilinadi."
 
 #: wp-includes/class-wp-xmlrpc-server.php:3674
 msgid "You are not allowed access to details of this post."
-msgstr ""
+msgstr "Вам не разрешено получать детальную информацию об этом блоге."
 
 #: wp-includes/class-wp-xmlrpc-server.php:3872
 msgid "You are not allowed to update options."
@@ -5981,96 +5979,96 @@ msgstr "Manba URL va nishon URL ikkalasi ham bir xil resursga qaratilishi mumkin
 
 #: wp-includes/class-wp-xmlrpc-server.php:6285
 msgid "The pingback has already been registered."
-msgstr "Pingback allaqachon ro'yxatga olindi."
+msgstr "Бу билдирги аввал рўйхатга олинган."
 
 #: wp-includes/class-wp-xmlrpc-server.php:6310
 msgid "The source URL does not exist."
-msgstr "Manba URL mavjud emas."
+msgstr "Манбага ҳавола мавжуд эмас."
 
 #: wp-includes/class-wp-xmlrpc-server.php:6331
 msgid "We cannot find a title on that page."
-msgstr "Biz u sahifaning sarlavhasini topa olmadik."
+msgstr "Саҳифанинг сарлавҳасини аниқлаб бўлмади."
 
 #: wp-includes/class-wp-xmlrpc-server.php:6367
 msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
-msgstr "Manba URLda nishon URLga link yo'q, shuning uchun uni manba sifatida ishlatib bo'lmaydi."
+msgstr "Манба манзилида нишонга ҳавола йўқ, шунинг учун манба сифатида ишлатилиб бўлмайди."
 
 #: wp-includes/class-wp-xmlrpc-server.php:6399
 msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
-msgstr "%1$sdan %2$sga pingback ro'yxatga olindi. Web suhbatni davom ettiring! :-)"
+msgstr "%1$s томонидан %2$sга билдирги рўйхатга олинди. Гапиришдан тўхтаманг! :-)"
 
 #: wp-includes/class-wp-xmlrpc-server.php:6432
 msgid "The specified target URL does not exist."
-msgstr "Keltirilgan nishon URL mavjud emas."
+msgstr "Кўрсатилган ҳавола мавжуд эмас."
 
 #: wp-includes/load.php:142
 msgid "Your PHP installation appears to be missing the MySQL extension which is required by WordPress."
-msgstr "WordPress uchun talab etiladigan MySQL kengaytmasi PHP sozlanmalaringizda topilmadi."
+msgstr "WordPress учун талаб қилинган  MySQL кенгайтмаси PHP созламангизда топилмади."
 
 #: wp-includes/wp-db.php:1323
 msgid "WordPress database error %1$s for query %2$s made by %3$s"
-msgstr "%3$s tomonidan yuborilgan %2$s so'rovi WordPress ma'lumotlar bazasiga oid %1$s xatolikni keltirib chiqardi."
+msgstr "WordPress маълумотлар базаси %3$s томонидан юборилган %2$s сўров учун %1$s хатолигини берди."
 
 #: wp-includes/wp-db.php:1325
 msgid "WordPress database error %1$s for query %2$s"
-msgstr "%2$s so'rov uchun WordPressning %1$s ma'lumotlar bazasi xatoligi"
+msgstr "WordPress маълумотлар базаси %2$s сўрови учун %1$s хатолигини берди"
 
 #: wp-includes/comment-template.php:2178
 msgid "Cancel reply"
-msgstr "Javobni bekor qilish"
+msgstr "Жавобни бекор қилиш"
 
 #: wp-includes/comment-template.php:2179
 msgid "Post Comment"
-msgstr "Fikrni yuborish"
+msgstr "Шарҳ киритиш"
 
 #: wp-includes/comment.php:234
 msgid "Unapproved"
-msgstr "Tasdiqlanmagan"
+msgstr "Тасдиқланмаган"
 
 #: wp-includes/comment.php:638 wp-includes/comment.php:640
 msgid "Duplicate comment detected; it looks as though you&#8217;ve already said that!"
-msgstr "Ikkita bir xil fikr topildi. Menimcha Siz bu fikrni avvalroq yozgan edingiz!"
+msgstr "Шарҳнинг дубликати топилди. Сиз бу шарҳни аввалроқ киритган эдингиз!"
 
 #: wp-includes/comment.php:1935
 msgid "Could not update comment status"
-msgstr "Izoh holatini yangilab bo'lmadi"
+msgstr "Шарҳ ҳолатини янгилаб бўлмади"
 
 #: wp-includes/cron.php:194
 msgid "This argument has changed to an array to match the behavior of the other cron functions."
-msgstr "Boshqa cron funksiyalariga mos bo'lishi uchun bu argument arrayga o'zgartirildi."
+msgstr "Режалаштирувчининг (cron) фунцияларига мос бўлиши учун бу аргумент массивга ўзгартирилди."
 
 #: wp-includes/cron.php:394
 msgid "Once Hourly"
-msgstr "Har soatda"
+msgstr "Ҳар соатда"
 
 #: wp-includes/cron.php:395
 msgid "Twice Daily"
-msgstr "Har kuni ikki marta"
+msgstr "Кунда икки марта"
 
 #: wp-includes/cron.php:396
 msgid "Once Daily"
-msgstr "Har kuni"
+msgstr "Ҳар куни"
 
 #: wp-includes/widgets/class-wp-widget-links.php:142
 #: wp-includes/widgets/class-wp-widget-pages.php:135
 msgid "Sort by:"
-msgstr "Tartiblash:"
+msgstr "Тартиблаш:"
 
 #: wp-includes/widgets/class-wp-widget-pages.php:137
 msgid "Page title"
-msgstr "Sahifa sarlavhasi"
+msgstr "Саҳиф сарлавҳаси"
 
 #: wp-includes/widgets/class-wp-widget-pages.php:138
 msgid "Page order"
-msgstr "Sahifa tartib raqami"
+msgstr "Саҳифа тартиби"
 
 #: wp-includes/widgets/class-wp-widget-pages.php:139
 msgid "Page ID"
-msgstr "Sahifa IDsi"
+msgstr "Саҳифа IDси"
 
 #: wp-includes/widgets/class-wp-widget-pages.php:143
 msgid "Exclude:"
-msgstr "Istisno:"
+msgstr "Истисно:"
 
 #: wp-includes/widgets/class-wp-widget-pages.php:146
 msgid "Page IDs, separated by commas."
@@ -6082,155 +6080,155 @@ msgstr "Sizning havolalaringiz"
 
 #: wp-includes/widgets/class-wp-widget-links.php:152
 msgid "Show Link Image"
-msgstr "Havola rasmlarini ko'rsatish"
+msgstr "Ҳавола расмини кўрсатиш"
 
 #: wp-includes/widgets/class-wp-widget-links.php:154
 msgid "Show Link Name"
-msgstr "Havola nomini ko'rsatish"
+msgstr "Ҳавола номини кўрсатиш"
 
 #: wp-includes/widgets/class-wp-widget-links.php:156
 msgid "Show Link Description"
-msgstr "Havola izohini ko'rsatish"
+msgstr "Ҳавола изоҳини кўрсатиш"
 
 #: wp-includes/widgets/class-wp-widget-links.php:158
 msgid "Show Link Rating"
-msgstr "Havola bahosini ko'rsatish"
+msgstr "Ҳавола баҳосини кўрсатиш"
 
 #: wp-includes/widgets/class-wp-widget-archives.php:82
 msgid "Select Month"
-msgstr "Oyni tanlash"
+msgstr "Ойни танлаш"
 
 #: wp-includes/widgets/class-wp-widget-archives.php:161
 #: wp-includes/widgets/class-wp-widget-categories.php:167
 msgid "Show post counts"
-msgstr "Мақолалар sanog'ini ko'rsatish"
+msgstr "Мақолалар сонин кўрсатиш"
 
 #: wp-includes/widgets/class-wp-widget-meta.php:58
 msgid "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>"
-msgstr "Мақолаларга <abbr title=\"Мослашган Маълумот Етказиш\">RSS</abbr"
+msgstr "Мақолаларга <abbr title=\"Really Simple Syndication\">RSS</abbr"
 
 #: wp-includes/widgets/class-wp-widget-calendar.php:41
 msgid "Calendar"
-msgstr "Taqvim"
+msgstr "Тақвим"
 
 #: wp-includes/widgets/class-wp-widget-text.php:32
 msgid "Text"
-msgstr "Matn"
+msgstr "Матн"
 
 #: wp-includes/widgets/class-wp-widget-text.php:115
 msgid "Automatically add paragraphs"
-msgstr "Yangi qatorlarni avtomatik kiritish"
+msgstr "Янги қаторни абзац қилиш"
 
 #: wp-includes/widgets/class-wp-widget-categories.php:71
 msgid "Select Category"
-msgstr "Bo'limni tanlash"
+msgstr "Туркумни танлаш"
 
 #: wp-includes/widgets/class-wp-widget-categories.php:170
 msgid "Show hierarchy"
-msgstr "Shajarani ko'rsatish"
+msgstr "Шажарани кўрсатиш"
 
 #: wp-includes/widgets/class-wp-widget-recent-posts.php:31
 #: wp-includes/widgets/class-wp-widget-recent-posts.php:50
 msgid "Recent Posts"
-msgstr "Yangi мақолаlar"
+msgstr "Янги мақолалар"
 
 #: wp-includes/widgets/class-wp-widget-recent-posts.php:135
 msgid "Number of posts to show:"
-msgstr "Ko'rsatiladigan мақолаlar soni:"
+msgstr "Кўрсатиладиган мақолалар сони:"
 
 #. translators: comments widget: 1: comment author, 2: post link
 #: wp-includes/widgets/class-wp-widget-recent-comments.php:116
 msgctxt "widgets"
 msgid "%1$s on %2$s"
-msgstr "%2$s \"%1$s\"ga"
+msgstr "%2$s мақоласига %1$s"
 
 #: wp-includes/widgets.php:1267
 msgid "Untitled"
-msgstr "Sarlavhasiz"
+msgstr "Сарлавҳасиз"
 
 #: wp-includes/widgets.php:1345
 msgid "RSS Error: %s"
-msgstr "Xato RSS: %s "
+msgstr "RSS Хатолиги: %s "
 
 #: wp-includes/widgets.php:1351
 msgid "Enter the RSS feed URL here:"
-msgstr "RSS-tasma manzilini kiriting:"
+msgstr "RSS-тасма манзилини киритинг:"
 
 #: wp-includes/widgets.php:1354
 msgid "Give the feed a title (optional):"
-msgstr "Tasmaga nom bering (ixtiyoriy):"
+msgstr "Обуна тасмасига ном беринг (ихтиёрий):"
 
 #: wp-includes/widgets.php:1357
 msgid "How many items would you like to display?"
-msgstr "Nechta yozuv ko'rinsin?"
+msgstr "Нечта мақола кўринсин?"
 
 #: wp-includes/widgets.php:1367
 msgid "Display item content?"
-msgstr "Yozuvlar matni ko'rinsinmi?"
+msgstr "Мақола матни кўринсинми?"
 
 #: wp-includes/widgets.php:1370
 msgid "Display item author if available?"
-msgstr "Yozuv muallifi (agar bo'lsa) ko'rinsinmi?"
+msgstr "Мақола муаллифи (агар бўлса) кўринсинми?"
 
 #: wp-includes/widgets.php:1373
 msgid "Display item date?"
-msgstr "Yozuv sanasi ko'rinsinmi?"
+msgstr "Мақола санаси кўринсинми?"
 
 #: wp-includes/widgets/class-wp-widget-tag-cloud.php:30
 msgid "Tag Cloud"
-msgstr "Kalit so'zlar buluti"
+msgstr "Калит сўзлар булути"
 
 #: wp-includes/deprecated.php:64
 msgid "new WordPress Loop"
-msgstr "yangi WordPress Loop"
+msgstr "янги WordPress ҳалқа"
 
 #: wp-includes/deprecated.php:963
 msgid "Last updated"
-msgstr "So'nggi o'zgartirishlar"
+msgstr "Охирги янгиланиш"
 
 #: wp-includes/deprecated.php:1840 wp-includes/post-template.php:1439
 msgid "Missing Attachment"
-msgstr "Ilova yetishmayapti"
+msgstr "Илова етишмаяпти"
 
 #: wp-includes/feed-atom-comments.php:34 wp-includes/feed-rss2-comments.php:39
 msgid "Comments for %1$s searching on %2$s"
-msgstr "%2$s ichidagi %1$s uchun fikrlar"
+msgstr "%2$s қидируви бўйича %1$sга шарҳлар"
 
 #: wp-includes/feed-atom-comments.php:36 wp-includes/feed-rss2-comments.php:41
 msgid "Comments for %s"
-msgstr "%s ga bildirilgan fikrlar"
+msgstr "%sга билдирилган шарҳлар"
 
 #: wp-includes/feed-atom-comments.php:73 wp-includes/feed-rss2-comments.php:72
 msgid "Comment on %1$s by %2$s"
-msgstr "%2$s dan %1$s ga fikr bildirildi"
+msgstr "%2$s томонидан %1$sга шарҳ киритилди"
 
 #: wp-includes/feed-atom-comments.php:75 wp-includes/feed-rss2-comments.php:74
 msgid "By: %s"
-msgstr "Muallif: %s"
+msgstr "Муаллиф: %s"
 
 #: wp-includes/feed-rss2-comments.php:37
 msgid "Comments on: %s"
-msgstr "%s ga bildirlgan fikrlar"
+msgstr "%sга билдирилан шарҳлар"
 
 #: wp-includes/feed-rss2-comments.php:82
 msgid "Protected Comments: Please enter your password to view comments."
-msgstr "Himoyalangan fikrlar: Fikrlarni ko'rish uchun , iltimos, parolingizni kiriting."
+msgstr "Ҳимояланган шарҳлар: Шарҳларни кўриш учун, илтимос, паролингизни киритинг."
 
 #. translators: min=minute
 #: wp-includes/formatting.php:2834
 msgid "%s min"
 msgid_plural "%s mins"
-msgstr[0] "%s daqiqa"
+msgstr[0] "%s дақиқа"
 
 #: wp-includes/formatting.php:2839
 msgid "%s hour"
 msgid_plural "%s hours"
-msgstr[0] "%s soat"
+msgstr[0] "%s соат"
 
 #: wp-includes/formatting.php:2844
 msgid "%s day"
 msgid_plural "%s days"
-msgstr[0] "%s kun"
+msgstr[0] "%s кун"
 
 #. translators: used between list items, there is a space after the comma
 #: wp-includes/class-wp-theme.php:738
@@ -6239,59 +6237,59 @@ msgstr ", "
 
 #: wp-includes/option.php:151
 msgid "%s is a protected WP option and may not be modified"
-msgstr "%s himoyalangan WP sozlanmasi, bu tahrirlanmaydi"
+msgstr "%s &#8212; ҳимояланган WP танлови ва ўзгартириб бўлмайди"
 
 #: wp-includes/functions.php:1888 wp-includes/functions.php:2147
 msgid "Unable to create directory %s. Is its parent directory writable by the server?"
-msgstr "%s papkasini yaratishda xatolik yuz berdi. Serverda ochilayotgan papkaga yozish ruxsati berilganmi?"
+msgstr "%s директориясини яратишда хатолик юз берди. Сервер томонидан она директорияда ёзишга рухсат борми?"
 
 #: wp-includes/functions.php:2111
 msgid "Empty filename"
-msgstr "Fayl nomi yo'q"
+msgstr "Файл номи бўш"
 
 #: wp-includes/functions.php:2153
 msgid "Could not write file %s"
-msgstr "%s faylini yoza olmadim"
+msgstr "%s файлини сақлаб бўлмади"
 
 #: wp-includes/functions.php:2494
 msgid "You are attempting to log out of %s"
-msgstr "Siz %sdan chiqib ketishga harakat qilayapsiz"
+msgstr "Сиз %s тизимидан чиқиб кетишга ҳаракат қилмоқдасиз"
 
 #: wp-includes/functions.php:2503
 msgid "WordPress Failure Notice"
-msgstr "WordPress xatolik xabari"
+msgstr "WordPress хатолик хабари"
 
 #: wp-includes/functions.php:2496
 msgid "Do you really want to <a href='%s'>log out</a>?"
-msgstr "Siz haqiqatdan ham <a href='%s'>chiqmoqchimisiz</a>?"
+msgstr "Сиз ростдан ҳам <a href='%s'>тизимдан чиқмоқчимисиз</a>?"
 
 #: wp-includes/functions.php:2500 wp-includes/ms-functions.php:1915
 msgid "Please try again."
-msgstr "Iltimos, yana urinib ko'ring."
+msgstr "Илтимос, қайтадан уриниб кўринг."
 
 #: wp-includes/functions.php:2622
 msgid "&laquo; Back"
-msgstr "&laquo; Ortga"
+msgstr "&laquo; Орқага"
 
 #: wp-includes/functions.php:2634 wp-load.php:92
 msgid "WordPress &rsaquo; Error"
-msgstr "WordPress &rsaquo; Xatolik"
+msgstr "WordPress &rsaquo; Хатолик"
 
 #: wp-includes/functions.php:3658 wp-includes/functions.php:3782
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
-msgstr "WordPressning %2$s versiyasidan beri %1$s <strong>eskirgan</strong>! Uning o'rniga %3$sdan foydalaning."
+msgstr "%1$s функцияси WordPress %2$s версиясидан буён <strong>эскирган</strong>! Ўрнига %3$sдан фойдаланинг."
 
 #: wp-includes/functions.php:3660 wp-includes/functions.php:3784
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
-msgstr "WordPressning %2$s versiyasidan beri %1$s <strong>eskirgan</strong> va o'rniga ishlatish uchun hech narsa yo'q."
+msgstr "%1$s функцияси WordPress %2$s версиясидан буён <strong>эскирган</strong> ва ўрнига алтернатив йўқ!"
 
 #: wp-includes/functions.php:3842
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s! %3$s"
-msgstr "%1$s WordPressning %2$s versiyasidan beri <strong>eskirgan</strong> argument bilan chaqirildi! %3$s"
+msgstr "1$s функциясини аргумент билан чақириш WordPress %2$s версиясидан буён <strong>эскирган</strong>! %3$s"
 
 #: wp-includes/functions.php:3844
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s with no alternative available."
-msgstr "%1$s WordPressning %2$s versiyasidan beri <strong>eskirgan</strong> va o'rniga boshqasi bo'lmagan argument bilan chaqirildi!"
+msgstr "%1$s функциясини аргумент билан чақириш WordPress %2$s версиясидан буён <strong>эскирган</strong>  ва ўрнига алтернатив йўқ!"
 
 #: wp-includes/functions.php:4404
 msgid "Select a city"
@@ -6303,7 +6301,7 @@ msgstr "UTC"
 
 #: wp-includes/functions.php:4457
 msgid "Manual Offsets"
-msgstr "Qo'lda bajariladiganlari yo'nalishlar"
+msgstr "Қўлбола йўналишлар"
 
 #: wp-includes/general-template.php:272 wp-login.php:547 wp-login.php:610
 #: wp-login.php:660 wp-login.php:741
@@ -6330,11 +6328,11 @@ msgstr "Сайтни созлаш"
 #. translators: 1: separator, 2: search phrase
 #: wp-includes/general-template.php:1168
 msgid "Search Results %1$s %2$s"
-msgstr "Қидирув натижалари %1$s %2$s"
+msgstr "%1$s %2$s учун қидирув натижалари"
 
 #: wp-includes/general-template.php:958 wp-includes/general-template.php:1173
 msgid "Page not found"
-msgstr "Sahifa topilmadi"
+msgstr "Саҳиф топилмади"
 
 #. translators: 1: month name, 2: 4-digit year
 #: wp-includes/general-template.php:1722 wp-includes/media.php:3279
@@ -6356,59 +6354,59 @@ msgstr "&raquo;"
 #. translators: 1: blog title, 2: separator (raquo)
 #: wp-includes/general-template.php:2560
 msgid "%1$s %2$s Feed"
-msgstr "%1$s %2$s obunasi"
+msgstr "%1$s %2$s Тасма"
 
 #. translators: 1: blog title, 2: separator (raquo)
 #: wp-includes/general-template.php:2562
 msgid "%1$s %2$s Comments Feed"
-msgstr "%1$s %2$s шарҳлар тасмаси"
+msgstr "%1$s %2$s Шарҳлар тасмаси"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: post title
 #: wp-includes/general-template.php:2602
 msgid "%1$s %2$s %3$s Comments Feed"
-msgstr "%1$s %2$s %3$s bildirilgan fikrlar obunasi"
+msgstr "%1$s %2$s %3$sга шарҳлар тасмаси"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: category name
 #: wp-includes/general-template.php:2604
 msgid "%1$s %2$s %3$s Category Feed"
-msgstr "%1$s %2$s %3$s bo'lim obunasi"
+msgstr "%1$s %2$s Туркум %3$s бўйича тасма"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: tag name
 #: wp-includes/general-template.php:2606
 msgid "%1$s %2$s %3$s Tag Feed"
-msgstr "%1$s %2$s %3$s Kalit so'zlar obunasi"
+msgstr "%1$s %2$s %3$s калит сўзи бўйича тасма"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: author name
 #: wp-includes/general-template.php:2610
 msgid "%1$s %2$s Posts by %3$s Feed"
-msgstr "%1$s %2$s %3$s muallifligidagi мақолаlar obunasi"
+msgstr "%1$s %2$s Муаллиф %3$sнинг мақолалар тасмаси"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: search phrase
 #: wp-includes/general-template.php:2612
 msgid "%1$s %2$s Search Results for &#8220;%3$s&#8221; Feed"
-msgstr "%1$s %2$s &#8220;%3$s&#8221; сўрови бўйича қидирув натижалари."
+msgstr "%1$s %2$s &laquo;%3$s&raquo; бўйича қидирув натижалар тасмаси"
 
 #: wp-includes/general-template.php:3051
 msgid "&laquo; Previous"
-msgstr "&larr; Avvalgi"
+msgstr "&larr; Аввалги"
 
 #: wp-includes/general-template.php:3052
 msgid "Next &raquo;"
-msgstr "Keyingi &rarr;"
+msgstr "Кейинги &rarr;"
 
 #: wp-includes/class-http.php:263
 msgid "User has blocked requests through HTTP."
-msgstr "Foydalanuvchi HTTP orqali so'rovlarni ta'qiqlagan."
+msgstr "Фойдаланувчи HTTP орқали сўров юборишни тақиқлаган."
 
 #: wp-includes/class-http.php:868 wp-includes/class-wp-http-curl.php:232
 #: wp-includes/class-wp-http-curl.php:271
 msgid "Too many redirects."
-msgstr "Haddan ziyod ko'p qayta yo'naltirishlar."
+msgstr "Жуда кўп қайт йўналтиришлар."
 
 #: wp-includes/class-wp-http-curl.php:189
 #: wp-includes/class-wp-http-streams.php:228
 msgid "Could not open handle for fopen() to %s"
-msgstr "%sga nisbatan fopen() tutqichini ocha olmadim"
+msgstr "%sга тегишли fopen() туқичини очиб бўлмади"
 
 #. translators: month name
 #: wp-includes/locale.php:139 wp-includes/locale.php:167
@@ -6458,7 +6456,7 @@ msgstr "Сентябрь"
 #. translators: month name
 #: wp-includes/locale.php:148 wp-includes/locale.php:176
 msgid "October"
-msgstr "Откябрь"
+msgstr "Октябрь"
 
 #. translators: month name
 #: wp-includes/locale.php:149 wp-includes/locale.php:177
@@ -6558,145 +6556,145 @@ msgstr "Расм киритиш/таҳрирлаш"
 #: wp-includes/class-wp-editor.php:934 wp-includes/class-wp-editor.php:1411
 #: wp-includes/script-loader.php:406
 msgid "Insert/edit link"
-msgstr "Havola kiritish/tahrirlash"
+msgstr "Ҳавола киритиш/таҳрирлаш"
 
 #: wp-includes/class-wp-editor.php:978
 msgid "Insert row before"
-msgstr "Qator boshiga kiritish"
+msgstr "Жорий қатордан олдинга қўшиш"
 
 #: wp-includes/class-wp-editor.php:979
 msgid "Insert row after"
-msgstr "Qator so'ngiga kiritish"
+msgstr "Жорий қатордан кейинга қўшиш"
 
 #: wp-includes/class-wp-editor.php:984
 msgid "Delete row"
-msgstr "Qatorni o'chirish"
+msgstr "Қаторни ўчириш"
 
 #: wp-includes/class-wp-editor.php:980
 msgid "Insert column before"
-msgstr "Oldindan ustun kiritish"
+msgstr "Жорий устундан олдинга қўшиш"
 
 #: wp-includes/class-wp-editor.php:981
 msgid "Insert column after"
-msgstr "Keyinga ustun kiritish"
+msgstr "Жорий устундан кейинга қўшиш"
 
 #: wp-includes/class-wp-editor.php:988
 msgid "Merge table cells"
-msgstr "Kataklarni biriktirish"
+msgstr "Жадвал катакларини бириктириш"
 
 #: wp-includes/class-wp-editor.php:964
 msgid "Table row properties"
-msgstr "Jadval qator xossalari"
+msgstr "Жадвал қатори хоссалари"
 
 #: wp-includes/class-wp-editor.php:965
 msgid "Table cell properties"
-msgstr "Jadval katagi xossalari"
+msgstr "Жадвал катаги хоссалари"
 
 #: wp-includes/class-wp-editor.php:963
 msgid "Table properties"
-msgstr "Jadval xossalari"
+msgstr "Жадвал хоссалари"
 
 #: wp-includes/class-wp-editor.php:982
 msgid "Paste table row before"
-msgstr "Oldindan jadval qatori kiritish"
+msgstr "Жорий қатордан олдинга қўйиш"
 
 #: wp-includes/class-wp-editor.php:983
 msgid "Paste table row after"
-msgstr "Quyida jadval qatori kiritish"
+msgstr "Жорий қатордан кейинга қўйиш"
 
 #: wp-includes/class-wp-editor.php:986
 msgid "Cut table row"
-msgstr "Tablitsa qatorini kesib olish"
+msgstr "Жадвал қаторини кесиб олиш"
 
 #: wp-includes/class-wp-editor.php:987
 msgid "Copy table row"
-msgstr "Tablitsa qatorini nusxalab olish"
+msgstr "Жадвал қаторидан нусха олиш"
 
 #: wp-includes/class-wp-editor.php:962
 msgid "Delete table"
-msgstr "Tablitsani o'chirish"
+msgstr "Жадавлни ўчириш"
 
 #: wp-includes/class-wp-editor.php:968
 msgid "Row"
-msgstr "Qator"
+msgstr "Қатор"
 
 #: wp-includes/class-wp-editor.php:1025 wp-includes/script-loader.php:441
 #: wp-includes/script-loader.php:536 wp-includes/script-loader.php:545
 #: wp-includes/script-loader.php:656 wp-includes/theme.php:2083
 msgid "The changes you made will be lost if you navigate away from this page."
-msgstr "Agar ushbu sahifadan boshqasiga o'tsangiz o'zgarishlaringiz bekor qilinadi."
+msgstr "Агар ушбу саҳифани тарк этсангиз ўзгаришлар бекор қилинади."
 
 #: wp-includes/class-wp-editor.php:891
 msgid "Document properties"
-msgstr "Hujjat xossalari"
+msgstr "Хужжат хоссалари"
 
 #: wp-includes/class-wp-editor.php:834
 msgid "Paragraph"
-msgstr "Yangi qator"
+msgstr "Абзац"
 
 #: wp-includes/class-wp-editor.php:825
 msgid "Heading 1"
-msgstr "Sarlavha 1"
+msgstr "Сарлавҳа 1"
 
 #: wp-includes/class-wp-editor.php:826
 msgid "Heading 2"
-msgstr "Sarlavha 2"
+msgstr "Сарлавҳа 2"
 
 #: wp-includes/class-wp-editor.php:827
 msgid "Heading 3"
-msgstr "Sarlavha 3"
+msgstr "Сарлавҳа 3"
 
 #: wp-includes/class-wp-editor.php:828
 msgid "Heading 4"
-msgstr "Sarlavha 4"
+msgstr "Сарлавҳа 4"
 
 #: wp-includes/class-wp-editor.php:829
 msgid "Heading 5"
-msgstr "Sarlavha 5"
+msgstr "Сарлавҳа 5"
 
 #: wp-includes/class-wp-editor.php:830
 msgid "Heading 6"
-msgstr "Sarlavha 6"
+msgstr "Сарлавҳа 6"
 
 #: wp-includes/class-wp-editor.php:835 wp-includes/script-loader.php:100
 msgid "Blockquote"
-msgstr "Iqtibos"
+msgstr "Иқтибос"
 
 #: wp-includes/script-loader.php:113
 msgid "Code"
-msgstr "Kod"
+msgstr "Код"
 
 #: wp-includes/class-wp-editor.php:847 wp-includes/script-loader.php:95
 msgid "Bold"
-msgstr "Qalin yozuv"
+msgstr "Қалин"
 
 #: wp-includes/class-wp-editor.php:848 wp-includes/script-loader.php:97
 msgid "Italic"
-msgstr "Egri yozuv"
+msgstr "Курсив"
 
 #: wp-includes/class-wp-editor.php:842
 msgid "Underline"
-msgstr "Tagiga chizilgan yozuv"
+msgstr "Тагига чизилган"
 
 #: wp-includes/class-wp-editor.php:843
 msgid "Strikethrough"
-msgstr "Ustidan chizilgan"
+msgstr "Устидан чизилган"
 
 #: wp-includes/class-wp-editor.php:844
 msgid "Subscript"
-msgstr "Maxraj yozuvi"
+msgstr "Махражда"
 
 #: wp-includes/class-wp-editor.php:845
 msgid "Superscript"
-msgstr "Sur'at yozuvi"
+msgstr "Даражада"
 
 #: wp-includes/class-wp-editor.php:861
 msgid "Cut"
-msgstr "Kesib olish"
+msgstr "Қирқи олиш"
 
 #: wp-includes/class-wp-editor.php:862
 msgid "Copy"
-msgstr "Nusxalash"
+msgstr "Нусха олиш"
 
 #: wp-includes/class-wp-editor.php:863
 msgid "Paste"
@@ -6704,71 +6702,71 @@ msgstr "Kiritish"
 
 #: wp-includes/class-wp-editor.php:821
 msgid "New document"
-msgstr "Yangi hujjat"
+msgstr "Янги ҳужжат"
 
 #: wp-includes/class-wp-editor.php:907
 msgid "Image description"
-msgstr "Rasm izohi"
+msgstr "Расм изоҳи"
 
 #: wp-includes/class-wp-editor.php:904
 msgid "Border"
-msgstr "Chegara"
+msgstr "Чегара"
 
 #: wp-includes/class-wp-editor.php:909
 msgid "Dimensions"
-msgstr "O'lchamlari"
+msgstr "Ўлчамлари"
 
 #: wp-includes/class-wp-editor.php:906
 msgid "Vertical space"
-msgstr "Vertikal joy"
+msgstr "Бўшлиқ (V)"
 
 #: wp-includes/class-wp-editor.php:932
 msgid "Horizontal space"
-msgstr "Gorizontal joy"
+msgstr "Бўшлиқ (H)"
 
 #: wp-includes/class-wp-editor.php:1001
 msgid "Top"
-msgstr "Yuqori"
+msgstr "Юқоридан"
 
 #: wp-includes/class-wp-editor.php:1002
 msgid "Middle"
-msgstr "O'rta"
+msgstr "Ўртадан"
 
 #: wp-includes/class-wp-editor.php:1003
 msgid "Bottom"
-msgstr "Quyi"
+msgstr "Қуйидан"
 
 #: wp-includes/class-wp-editor.php:901
 msgid "General"
-msgstr "Umumiy"
+msgstr "Умумий"
 
 #: wp-includes/class-wp-editor.php:905
 msgid "Constrain proportions"
-msgstr "Proporsiyalarni saqlash"
+msgstr "Нисбатни сақлаш"
 
 #: wp-includes/media-template.php:1090 wp-includes/media-template.php:1179
 msgid "Loop"
-msgstr "Takrorlanish"
+msgstr "Ҳалқа"
 
 #: wp-includes/media-template.php:841 wp-includes/media-template.php:907
 msgid "Align"
-msgstr "Yo'nalish"
+msgstr "Текислаш"
 
 #: wp-includes/admin-bar.php:746
 msgid "Background"
-msgstr "Orqa fon"
+msgstr "Фон"
 
 #: wp-includes/class-wp-editor.php:930 wp-includes/script-loader.php:341
 msgid "Fullscreen"
-msgstr "To'liq ekranda"
+msgstr "Тўлиқ экранда"
 
 #: wp-includes/script-loader.php:350
 msgid "Mute"
-msgstr "Ovozni o'chirish"
+msgstr "Овозини ўчииш"
 
 #: wp-includes/media.php:3398
 msgid "Edit Gallery"
-msgstr "Gallereyani tahrirlash"
+msgstr "Галереяни таҳрирлаш"
 
 #: wp-includes/class-wp-editor.php:903
 msgid "Source"
@@ -6788,11 +6786,11 @@ msgstr "Ҳаракат"
 
 #: wp-includes/class-wp-editor.php:864
 msgid "Select all"
-msgstr "Barchasini belgilash"
+msgstr "Барчасини белгилаш"
 
 #: wp-includes/class-wp-editor.php:954
 msgid "Check Spelling"
-msgstr "Imlo tekshiruvi"
+msgstr "Имло текшируви"
 
 #: wp-includes/script-loader.php:99
 msgid "Insert link"
@@ -6808,7 +6806,7 @@ msgstr "Yangi sahifa tegini kiritish"
 
 #: wp-includes/link-template.php:692
 msgid "Comments Feed"
-msgstr "Bildirilgan fikrlar obunasi"
+msgstr "Шарҳлар тасмаси"
 
 #: wp-includes/link-template.php:1763 wp-includes/link-template.php:1995
 msgid "Previous Post"
@@ -6816,196 +6814,196 @@ msgstr "Avvalgi мақола"
 
 #: wp-includes/link-template.php:1763 wp-includes/link-template.php:1995
 msgid "Next Post"
-msgstr "Keyingi мақола"
+msgstr "Кейинги мақола"
 
 #: wp-includes/deprecated.php:2671
 msgid "Last Post"
-msgstr "Oxirgi мақола"
+msgstr "Охирги мақола"
 
 #: wp-includes/link-template.php:2659
 msgid "Newer Comments &raquo;"
-msgstr "Янгироқ шарҳлар &raquo;"
+msgstr "Янгироқ шарҳлар &rarr;"
 
 #: wp-includes/link-template.php:2703
 msgid "&laquo; Older Comments"
-msgstr "&laquo; Eskiroq fikrlar"
+msgstr "&larr; Эскироқ шарҳлар"
 
 #: wp-includes/locale.php:181
 msgid "am"
-msgstr "am"
+msgstr "кечаси"
 
 #: wp-includes/locale.php:182
 msgid "pm"
-msgstr "pm"
+msgstr "кундузи"
 
 #: wp-includes/locale.php:183
 msgid "AM"
-msgstr "AM"
+msgstr "Кундузи"
 
 #: wp-includes/locale.php:184
 msgid "PM"
-msgstr "PM"
+msgstr "Кечаси"
 
 #: wp-includes/ms-functions.php:242
 msgid "That user does not exist."
-msgstr "Bunday foydalanuvchi yo'q"
+msgstr "Бундай фойдаланувчи мавжуд эмас."
 
 #: wp-includes/ms-functions.php:442
 msgid "You cannot use that email address to signup. We are having problems with them blocking some of our email. Please use another email provider."
-msgstr "Siz ushbu elektron pochtani ro'yxatdan o'tish uchun ishlata olmaysiz. Iltimos, boshqa elektron pochta provayderidan foydalaning. "
+msgstr "Сиз ушбу электрон почтани рўйхатдан ўтиш учун ишлата олмайсиз. Бизнинг хатларимиз бу каби манзилларга боришда муаммога учрамоқда. Илтимос, бошқа электрон почта хизматидан фойдаланинг."
 
 #: wp-includes/ms-functions.php:453
 msgid "Sorry, usernames must have letters too!"
-msgstr "Kechirasiz, a'zolik ismida harflar ham bo'lishi kerak!"
+msgstr "Кечирасиз, фойдаланувчи номида ҳарфлар ҳам бўлиши керак!"
 
 #: wp-includes/ms-functions.php:462
 msgid "Sorry, that email address is not allowed!"
-msgstr "Kechirasiz, usbhu email manzili ta'qiqlangan!"
+msgstr "Кечирасиз, ушбу электрон почта манзили таъқиқланган!"
 
 #: wp-includes/ms-functions.php:468 wp-includes/user.php:1417
 msgid "Sorry, that username already exists!"
-msgstr "Kechirasiz, ushbu a'zolik ismi iste'molda!"
+msgstr "Кечирасиз, бу фойдаланувчи номи фойдаланилмоқда!"
 
 #: wp-includes/ms-functions.php:472 wp-includes/user.php:1491
 msgid "Sorry, that email address is already used!"
-msgstr "Kechirasiz, ushbu email manzil iste'molda!"
+msgstr "Кечирасиз, бу электрон почта манзили фойдаланилмоқда!"
 
 #: wp-includes/ms-functions.php:484
 msgid "That username is currently reserved but may be available in a couple of days."
-msgstr "Ishbu a'zolik ismi zahira qilingan, ammo bir necha kundan keyin ruxsat etilishi mumkin."
+msgstr "Ушбу фойдаланувчи номи заҳирада, аммо бир неча кундан кейин ишга тушади."
 
 #: wp-includes/ms-functions.php:494
 msgid "That email address has already been used. Please check your inbox for an activation email. It will become available in a couple of days if you do nothing."
-msgstr "Ushbu email allaqachon ro'yhatdan o'tgan"
+msgstr "Бу электрон почта манзилидан фойдаланилмоқда. Илтимос, почтангиздан аъзоликни фаоллаштиришга оид хатни қидирингн. Агар топилмаса, бу манзилдан фойдаланиш учун бир-икки кун кутиш керак бўлади."
 
 #: wp-includes/ms-functions.php:958
 msgid "Invalid activation key."
-msgstr "Aktivatsiya kaliti xato."
+msgstr "Яроқсиз фаоллаштириш калити."
 
 #: wp-includes/ms-functions.php:978
 msgid "Could not create user"
-msgstr "Foydalanuvchi yaratib bo'lmadi"
+msgstr "Фойдаланувчи яратиб бўлмади"
 
 #: wp-includes/ms-functions.php:986
 msgid "That username is already activated."
-msgstr "Bu nom aktivaciya qilingan."
+msgstr "Бу фойдаланувчи аллақачон фаоллаштирилган."
 
 #: wp-includes/ms-functions.php:1238
 msgid "New User Registration: %s"
-msgstr "Yangi Foydalanuvchi Registraciya qilish: %s"
+msgstr "Янги фойдаланувчини рўйхатга олиш: %s"
 
 #: wp-includes/ms-functions.php:1578
 msgid "New %1$s User: %2$s"
-msgstr "Yangi %1$s Foydalanuvchi: %2$s"
+msgstr "«%1$s» тармоғида янги фойдаланувчи: %2$s"
 
 #: wp-includes/ms-load.php:307
 msgid "What do I do now?"
-msgstr "Endi nima qilaman?"
+msgstr "Энди нима қиламан?"
 
 #. translators: 1: blog name, 2: post title
 #: wp-includes/pluggable.php:1451
 msgid "[%1$s] Comment: \"%2$s\""
-msgstr "[%1$s] Fikrlar: \"%2$s\""
+msgstr "[%1$s] Шарҳлар: \"%2$s\""
 
 #. translators: 1: blog name, 2: post title
 #: wp-includes/pluggable.php:1430
 msgid "[%1$s] Trackback: \"%2$s\""
-msgstr "[%1$s] Izquvar: \"%2$s\""
+msgstr "[%1$s] Изқувар: \"%2$s\""
 
 #. translators: 1: blog name, 2: post title
 #: wp-includes/pluggable.php:1440
 msgid "[%1$s] Pingback: \"%2$s\""
-msgstr "[%1$s] Ma'lumot: \"%2$s\""
+msgstr "[%1$s] Билдирма: \"%2$s\""
 
 #: wp-includes/pluggable.php:1459 wp-includes/pluggable.php:1603
 msgid "Trash it: %s"
-msgstr "O'chirish: %s"
+msgstr "Ахлат челакка: %s"
 
 #: wp-includes/pluggable.php:1461 wp-includes/pluggable.php:1605
 msgid "Delete it: %s"
-msgstr "O'chirish: %s"
+msgstr "Ўчириш: %s"
 
 #: wp-includes/pluggable.php:1463 wp-includes/pluggable.php:1607
 msgid "Spam it: %s"
-msgstr "Spam: %s"
+msgstr "Қалбаки: %s"
 
 #: wp-includes/pluggable.php:1580
 msgid "Trackback excerpt: "
-msgstr "Izquvar izohi:"
+msgstr "Изқувар иқтибоси:"
 
 #: wp-includes/pluggable.php:1588
 msgid "Pingback excerpt: "
-msgstr "Qayta aloqa izohi:"
+msgstr "Билдирма иқтибоси:"
 
 #: wp-includes/pluggable.php:1600
 msgid "Approve it: %s"
-msgstr "Tasdiqlash: %s"
+msgstr "Тасдиқлаш: %s"
 
 #: wp-includes/pluggable.php:1609
 msgid "Currently %s comment is waiting for approval. Please visit the moderation panel:"
 msgid_plural "Currently %s comments are waiting for approval. Please visit the moderation panel:"
-msgstr[0] "Hozirda %s ta fikr tasdiqlanishni kutmoqda. Iltimos, tasdiqlash paneliga o'ting:"
+msgstr[0] "Ҳозирда %sта шарҳ тасдиқлашни кутмоқда. Илтимос, назорат панелига ўтинг:"
 
 #: wp-includes/pluggable.php:1613
 msgid "[%1$s] Please moderate: \"%2$s\""
-msgstr "[%1$s] Iltimos nazorat qiling: \"%2$s\""
+msgstr "[%1$s] Илтимос, назорат қилинг: \"%2$s\""
 
 #: wp-includes/pluggable.php:1676
 msgid "Password Lost and Changed for user: %s"
-msgstr "Quyidagi foydalanuvchi paroli o'zgartirildi: %s"
+msgstr "Қуйидаги фойдаланувчи пароли унутилди ва ўзгарди: %s"
 
 #: wp-includes/pluggable.php:1680
 msgid "[%s] Password Lost/Changed"
-msgstr "[%s] Parol qayta tiklandi"
+msgstr "[%s] Парол унутилди ва ўзгарди"
 
 #: wp-includes/pluggable.php:1716 wp-includes/pluggable.php:1740
 #: wp-login.php:327
 msgid "Username: %s"
-msgstr "Login: %s"
+msgstr "Фойдаланувчи номи: %s"
 
 #: wp-includes/pluggable.php:1719
 msgid "[%s] New User Registration"
-msgstr "[%s] Yangi a'zoni ro'yxatga olish"
+msgstr "[%s] Янги фойдаланувчини рўйхатга олиш"
 
 #: wp-includes/pluggable.php:1746
 msgid "[%s] Your username and password info"
-msgstr "Sizning a'zolik ismingiz va parolingiz [%s]"
+msgstr "Сизнинг фойдаланувчи номингиз ва паролингиз [%s]"
 
 #: wp-includes/post-template.php:130
 msgid "Protected: %s"
-msgstr "Himoyalangan: %s"
+msgstr "Ҳимояланган: %s"
 
 #: wp-includes/post-template.php:145
 msgid "Private: %s"
-msgstr "Shaxsiy: %s"
+msgstr "Шахсий: %s"
 
 #: wp-includes/post-template.php:376
 msgid "There is no excerpt because this is a protected post."
-msgstr "Oldindan ko'rich uchun matn yo'q, chunki bu himoyalangan мақола."
+msgstr "Иқтибос мавжуд эмас, чунки бу ҳимояланган мақола."
 
 #: wp-includes/post-template.php:835
 msgid "Next page"
-msgstr "Keyingi sahifa"
+msgstr "Кейинги саҳифа"
 
 #: wp-includes/post-template.php:836
 msgid "Previous page"
-msgstr "Avvalgi sahifa"
+msgstr "Аввалги саҳифа"
 
 #: wp-includes/post-template.php:1274
 msgid "Home"
-msgstr "Bosh sahifa"
+msgstr "Бош саҳифа"
 
 #: wp-includes/post-template.php:1678
 msgid "%1$s [Autosave]"
-msgstr "%1$s [Avtosaqlangan]"
+msgstr "%1$s [Автосақлаш]"
 
 #: wp-includes/post-template.php:1679
 msgid "%1$s [Current Revision]"
-msgstr "%1$s [Hozirgi ko'rib chiqish]"
+msgstr "%1$s [Ҳозирги таҳрир]"
 
 #: wp-includes/post.php:84
 msgid "Revision"
-msgstr "Ko'rib chiqish"
+msgstr "Таҳририят"
 
 #: wp-includes/post.php:116
 msgid "Published <span class=\"count\">(%s)</span>"
@@ -7039,7 +7037,7 @@ msgstr[0] "Ўчирилган <span class=\"count\">(%s)</span>"
 
 #: wp-includes/post.php:3104
 msgid "Content, title, and excerpt are empty."
-msgstr "Matn, sarlavha va izoh bo'sh qoldirilgan."
+msgstr "Матн, сарлавҳа ва иқтибос бўш қолдирилган."
 
 #: wp-includes/post.php:3343
 msgid "Could not update post in the database"
@@ -7047,23 +7045,23 @@ msgstr "Ma'lumotlar bazasida yozuvni yangilab bo'lmadi"
 
 #: wp-includes/post.php:3358
 msgid "Could not insert post into the database"
-msgstr "Mақолаni ma'lumotlar bazasiga kirita olmadim"
+msgstr "Mақолани маълумотлар базасига киритиб бўлмади"
 
 #: wp-includes/post.php:3435
 msgid "The page template is invalid."
-msgstr "Sahifa shablonida xatolik."
+msgstr "Саҳифа шаблони яроқсиз."
 
 #: wp-includes/revision.php:295
 msgid "Cannot create a revision of a revision"
-msgstr "Qayta ko'rishning qayta ko'rinishini yaratish mumkin emas"
+msgstr "Таҳририятнинг таҳририятини яратиб бўлмайди"
 
 #: wp-includes/revision.php:556
 msgid "You do not have permission to preview drafts."
-msgstr "Sizda qoralamalarni ko'rishga ruxsat yo'q."
+msgstr "Сизда ҳомаки мақолаларни кўришга рухсат йўқ."
 
 #: wp-includes/user.php:1411
 msgid "Cannot create a user with an empty login name."
-msgstr "Logini bo'sh bo'lgan foydalanuvchi yaratish mumkin emas."
+msgstr "Бўш ном билан фойдаланувчи яратиб бўлмайди."
 
 #: wp-includes/user.php:1953
 msgid "AIM"
@@ -7079,120 +7077,120 @@ msgstr "Jabber / Google Talk"
 
 #: wp-includes/rss.php:919 wp-includes/widgets.php:1251
 msgid "An error has occurred, which probably means the feed is down. Try again later."
-msgstr "Obuna vaqtincha ishlamayotganligi sababli xatolik yuz berdi. Keyinroq qayta urinib ko'ring."
+msgstr "Обуна вақтинчалик ишламаётганлиги сабабли хатолик юз берди. Кейинроқ қайтадан уриниб кўринг."
 
 #: wp-includes/script-loader.php:87
 msgid "Close all open tags"
-msgstr "Barcha ochiq teglarni yopish"
+msgstr "Барча очиқ тегларни ёпиш"
 
 #: wp-includes/script-loader.php:88
 msgid "close tags"
-msgstr "kalit so'zlarni yopish"
+msgstr "тегларни ёпиш"
 
 #: wp-includes/script-loader.php:89
 msgid "Enter the URL"
-msgstr "URL kiriting"
+msgstr "Манзил(URL)ни киритинг"
 
 #: wp-includes/script-loader.php:90
 msgid "Enter the URL of the image"
-msgstr "Расмг ҳаволасини киритинг"
+msgstr "Расм ҳаволасини киритинг"
 
 #: wp-includes/script-loader.php:91
 msgid "Enter a description of the image"
-msgstr "Rasmni tasvirlab ma'lumot yozing"
+msgstr "Расм тавсифини киритинг"
 
 #: wp-includes/script-loader.php:127 wp-includes/script-loader.php:486
 msgid "You do not have permission to do that."
-msgstr "Bunday qilish uchun Sizda yetarlicha ruxsat yo'q."
+msgstr "Буни амалга ошириш учун сизга рухсат йўқ."
 
 #: wp-includes/script-loader.php:128 wp-includes/script-loader.php:487
 msgid "An unidentified error has occurred."
-msgstr "Noma'lum xatolik yuz berdi."
+msgstr "Номаълум хатолик юз берди."
 
 #: wp-includes/script-loader.php:255
 msgid "Next &gt;"
-msgstr "Keyingi &gt;"
+msgstr "Кейинги &gt;"
 
 #: wp-includes/script-loader.php:256
 msgid "&lt; Prev"
-msgstr "&lt; Avvalgi"
+msgstr "&lt; Аввалги"
 
 #: wp-includes/script-loader.php:257
 msgid "Image"
-msgstr "Rasm"
+msgstr "Расм"
 
 #: wp-includes/script-loader.php:258
 msgid "of"
-msgstr "-"
+msgstr "дан"
 
 #: wp-includes/script-loader.php:260
 msgid "This feature requires inline frames. You have iframes disabled or your browser does not support them."
-msgstr "Ushbu imkoniyat inline frame talab etadi. Brauzeringizda iframe o'chirilgan yoki brauzeringiz ularni ko'rsata olmaydi."
+msgstr "Ушбу функция inline frame ишлатишни талаб қилади. Браузерингизда inline frame ўчирилган ёки браузерингиз кўрсата олмайди."
 
 #: wp-includes/script-loader.php:270
 msgid "You have attempted to queue too many files."
-msgstr "Juda ko'p fayllarni navbatga qo'ydingiz."
+msgstr "Сиз жуда кўп файлларни навбатга қўйдингиз."
 
 #: wp-includes/script-loader.php:272
 msgid "This file is empty. Please try another."
-msgstr "Bu fayl bo'sh. Iltimos, boshqasini tanlang."
+msgstr "Бу файл бўш. Илтимос, бошқасини танланг."
 
 #: wp-includes/script-loader.php:273
 msgid "This file type is not allowed. Please try another."
-msgstr "Bu turdagi faylga ruxsat berilmaydi. Iltimos, boshqasini tanlang."
+msgstr "Бу файл турига рухсат берилмаган. Илтимос, бошқасини танланг."
 
 #: wp-includes/script-loader.php:277
 msgid "An error occurred in the upload. Please try again later."
-msgstr "Yuklashda xatolik yuz berdi. Iltimos, keyinroq qayta urinib ko'ring."
+msgstr "Юклашда хатолик юз берди. Илтимос, кейинроқ қайтадан уриниб кўринг."
 
 #: wp-includes/script-loader.php:278
 msgid "There was a configuration error. Please contact the server administrator."
-msgstr "Sozlashda xatolik bor. Iltimos, server administratoriga murojaat qiling."
+msgstr "Созлашда хатолик юз берди. Илтимос, сайт маъмуриятига мурожаат қилинг."
 
 #: wp-includes/script-loader.php:279
 msgid "You may only upload 1 file."
-msgstr "Siz faqat 1 ta faylni yuklay olasiz."
+msgstr "Сиз фақат битта файл юклай оласиз."
 
 #: wp-includes/script-loader.php:280
 msgid "HTTP error."
-msgstr "HTTP xatoligi"
+msgstr "HTTP хатолиги."
 
 #: wp-includes/script-loader.php:281
 msgid "Upload failed."
-msgstr "Yuklash muvaffaqiyatsiz bo'ldi."
+msgstr "Юклаш амалга ошмади."
 
 #: wp-includes/script-loader.php:284
 msgid "IO error."
-msgstr "IO xatoligi"
+msgstr "Кириш/чиқиш хатолиги."
 
 #: wp-includes/script-loader.php:285
 msgid "Security error."
-msgstr "Xavfsizlik xatoligi."
+msgstr "Хавфсизлик хатолиги."
 
 #: wp-includes/script-loader.php:287
 msgid "Upload stopped."
-msgstr "Yuklash to'xtatildi."
+msgstr "Юклаш тўхтатилди."
 
 #: wp-includes/script-loader.php:289
 msgid "Crunching&hellip;"
-msgstr "Moslashtirilayapti&hellip;"
+msgstr "Ишлов берилмоқда&hellip;"
 
 #: wp-includes/script-loader.php:290
 msgid "moved to the trash."
-msgstr "o'chirildi."
+msgstr "ахлат челакка кўчирилди."
 
 #: wp-includes/script-loader.php:383
 msgctxt "password strength"
 msgid "Medium"
-msgstr "O'rtacha"
+msgstr "Ўртача"
 
 #: wp-includes/script-loader.php:518
 msgid "Publish on:"
-msgstr "Quyidagi joyda chop etish:"
+msgstr "Қуйидаги жойда чоп этиш:"
 
 #: wp-includes/script-loader.php:519
 msgid "Schedule for:"
-msgstr "Rejalashtirish:"
+msgstr "Режалаштириш:"
 
 #: wp-includes/script-loader.php:520
 msgid "Published on:"
@@ -7200,91 +7198,91 @@ msgstr "Чоп этилган:"
 
 #: wp-includes/script-loader.php:523
 msgid "Show more comments"
-msgstr "Ko'proq fikrlarni ko'rsatish"
+msgstr "Кўпроқ шарҳларни кўрсатиш"
 
 #: wp-includes/script-loader.php:524
 msgid "No more comments found."
-msgstr "Boshqa bildirilgan fikrlar topilmadi."
+msgstr "Бошқа шарҳлар мавжуд эмас."
 
 #: wp-includes/script-loader.php:533
 msgid "Password Protected"
-msgstr "Parol bilan ximoyalangan"
+msgstr "Парол билан ҳимояланган"
 
 #: wp-includes/script-loader.php:559
 msgid "Submitted on:"
-msgstr "Yuborilgan vaqti:"
+msgstr "Юборилган вақти:"
 
 #: wp-includes/script-loader.php:572 wp-includes/script-loader.php:581
 msgid "Error while saving the changes."
-msgstr "O'zgarishlarni saqlash vaqtida xatolik yuz berdi."
+msgstr "Ўзгартиришларни сақлашда хатолик юз берди."
 
 #: wp-includes/script-loader.php:573
 msgid "Remove From Bulk Edit"
-msgstr "Ommaviy tahrirlashdan olib tashlash"
+msgstr "Оммавий таҳрирлашдан олиб ташлаш"
 
 #: wp-includes/script-loader.php:646
 msgid "Saving..."
-msgstr "Saqlanayapti..."
+msgstr "Сақланмоқда..."
 
 #: wp-includes/script-loader.php:647
 msgid "Could not set that as the thumbnail image. Try a different attachment."
-msgstr "Buni miniatyura rasmi sifatida saqlay olmadim. Boshqa rasmdan foydalaning."
+msgstr "Бу расмни миниатура сифатида сақлаб бўлмади. Бошқа расмдан фойдаланинг."
 
 #: wp-includes/script-loader.php:537
 msgid "Saving Draft&#8230;"
-msgstr "Qoralama saqlanmoqda&#8230;"
+msgstr "Ҳомаки қилиб сақланмоқда&#8230;"
 
 #: wp-includes/taxonomy.php:825 wp-includes/taxonomy.php:3330
 #: wp-includes/taxonomy.php:4526
 msgid "Empty Term"
-msgstr "Atama joyi bo'sh"
+msgstr "Атама жойи бўш"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1426
 #: wp-includes/class-wp-xmlrpc-server.php:1978
 #: wp-includes/class-wp-xmlrpc-server.php:2069
 #: wp-includes/class-wp-xmlrpc-server.php:2140 wp-includes/taxonomy.php:2751
 msgid "Invalid term ID"
-msgstr "Atama ID raqami xato"
+msgstr "Яроқсиз атама IDси"
 
 #: wp-includes/taxonomy.php:2754 wp-includes/taxonomy.php:3354
 msgid "A name is required for this term"
-msgstr "Bu atama uchun nom yozish majburiy"
+msgstr "Бу атама учун ном бериш мажбурий"
 
 #: wp-includes/taxonomy.php:2850
 msgid "Could not insert term into the database"
-msgstr "Atamani ma'lumotlar bazasiga kirita olmadim"
+msgstr "Атамани маълумот базасига қўшиб бўлмади"
 
 #: wp-includes/taxonomy.php:3414
 msgid "The slug &#8220;%s&#8221; is already in use by another term"
-msgstr "&#8220;%s&#8221; yo'naltirgichi boshqa atama tomonidan band qilingan"
+msgstr "Ёрлиқ &laquo;%s&raquo; бошқа атама учун ишлатилмоқда"
 
 #: wp-includes/taxonomy.php:4728
 msgid "Invalid object ID"
-msgstr "Obyekt ID raqami xato"
+msgstr "Яроқсиз объект IDси"
 
 #: wp-includes/class-wp-theme.php:297
 msgid "The parent theme is missing. Please install the \"%s\" parent theme."
-msgstr "Asosiy shablon topilmadi. Iltimos, \"%s\"ning asosiy shablonini o'rnating."
+msgstr "Она шаблон топилмади. Илтимос, \"%s\"нинг она шаблонини ўрнатинг."
 
 #: wp-includes/class-wp-theme.php:245
 msgid "Stylesheet is missing."
-msgstr "Stil fayli topilmadi."
+msgstr "Стил файли топилмади."
 
 #: wp-includes/user.php:128
 msgid "<strong>ERROR</strong>: The username field is empty."
-msgstr "<strong>XATO</strong>: Login joyi bo'sh qoldirilgan."
+msgstr "<strong>ХАТО</strong>: Фойдаланувчи номи чун майдон бўш қолдирилган."
 
 #: wp-includes/user.php:131 wp-includes/user.php:204
 msgid "<strong>ERROR</strong>: The password field is empty."
-msgstr "<strong>XATO</strong>: Parol joyi bo'sh qoldirilgan."
+msgstr "<strong>ХАТО</strong>: Парол майдони бўш қолдирилган."
 
 #: wp-includes/user.php:308
 msgid "<strong>ERROR</strong>: Your account has been marked as a spammer."
-msgstr "<strong>XATO</strong>: Sizning a'zoligingiz spammer sifatida belgilangan."
+msgstr "<strong>ХАТО</strong>: Сизнинг аъзолигингиз қаллоб деб белгиланган."
 
 #: wp-includes/functions.php:5054 wp-includes/user.php:278
 msgid "Please log in again."
-msgstr "Iltimos, saytga qayta kiring."
+msgstr "Илтимос, тизимга қайта киринг."
 
 #: wp-includes/widgets.php:173 wp-includes/widgets.php:244
 msgid "Sidebar %d"
@@ -7292,50 +7290,50 @@ msgstr "%d ён устун"
 
 #: wp-includes/wp-db.php:3150
 msgid "<strong>ERROR</strong>: WordPress %1$s requires MySQL %2$s or higher"
-msgstr "<strong>XATO</strong>: WordPress %1$s versiyasi MySQL %2$s yoki yuqoriroq versiyasini talab qiladi."
+msgstr "<strong>ХАТО</strong>: WordPress %1$s версияси MySQL %2$s ёки юқори версиясини талаб қилади."
 
 #: wp-login.php:105
 msgid "Powered by WordPress"
-msgstr "WordPress asosida ishlaydi"
+msgstr "WordPress асосида ишлайди"
 
 #: wp-login.php:287
 msgid "<strong>ERROR</strong>: Enter a username or email address."
-msgstr ""
+msgstr "<strong>ХАТО</strong>: Фойдаланувчи номи ёки электрон почта манзилини киритинг."
 
 #: wp-login.php:291
 msgid "<strong>ERROR</strong>: There is no user registered with that email address."
-msgstr "<strong>XATO</strong>: Bu email manzil saytda ro'yxatdan o'tkazilmagan."
+msgstr "<strong>ХАТО</strong>: Бу электрон почта манзили билан ҳеч ким рўйхатдан ўтмаган."
 
 #: wp-login.php:312
 msgid "<strong>ERROR</strong>: Invalid username or email."
-msgstr ""
+msgstr "<strong>ХАТО</strong>: Яроқсиў фойдаланувчи номи ёки электрон почта."
 
 #: wp-includes/user.php:2050
 msgid "Password reset is not allowed for this user"
-msgstr "Bu foydalanuvchi uchun parolni tiklash amaliyoti ta'qiqlangan."
+msgstr "Бу фойдаланувчи учун паролни янгилашга рухсат берилмаган."
 
 #: wp-login.php:341
 msgid "[%s] Password Reset"
-msgstr "[%s] Yangi parol"
+msgstr "[%s] Янги парол"
 
 #: wp-login.php:369
 msgid "The email could not be sent."
-msgstr "Emailga jo'natish imkoni bo'lmadi."
+msgstr "Хат юбориш имкони бўлмади."
 
 #: wp-includes/user.php:2105 wp-includes/user.php:2108
 #: wp-includes/user.php:2112 wp-includes/user.php:2137
 #: wp-includes/user.php:2146 wp-includes/user.php:2150
 #: wp-includes/user.php:2167
 msgid "Invalid key"
-msgstr "Kodda xatolik bor."
+msgstr "Яроқсиз калит."
 
 #: wp-includes/user.php:2244
 msgid "<strong>ERROR</strong>: Please type your email address."
-msgstr ""
+msgstr "<strong>ХАТО</strong>: Илтимос, электрон почта манзилини киритинг."
 
 #: wp-includes/user.php:2246
 msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
-msgstr "<strong>XATO</strong>: Email manzil xato yozilgan."
+msgstr "<strong>ХАТО</strong>: Электрон почта манзили хато."
 
 #: wp-login.php:524
 msgid "Lost Password"
@@ -7368,60 +7366,60 @@ msgstr "Паролни унутдингизми?"
 
 #: wp-login.php:811
 msgid "You have logged in successfully."
-msgstr "Saytga muvaffaqiyatli kirdingiz."
+msgstr "Сиз тизимга муваффақиятли кирдингиз."
 
 #: wp-login.php:852
 msgid "You are now logged out."
-msgstr "Saytdan chiqdingiz."
+msgstr "Сиз энди тизимдан чиқдингиз."
 
 #: wp-login.php:854
 msgid "User registration is currently not allowed."
-msgstr "Saytga a'zo bo'lish vaqtincha yopilgan."
+msgstr "Сайтда рўйхатдан ўтиш вақтинчалик ёпилган."
 
 #: wp-login.php:856
 msgid "Check your email for the confirmation link."
-msgstr ""
+msgstr "Электрон почтангизга тасдиқлаш учун хат юборилди."
 
 #: wp-login.php:858
 msgid "Check your email for your new password."
-msgstr ""
+msgstr "Электрон почтангизга янги парол билан хат юборилди."
 
 #: wp-login.php:860
 msgid "Registration complete. Please check your email."
-msgstr ""
+msgstr "Рўйхатдан ўтиш тамомланди. Электрон почтангизни текширинг."
 
 #: wp-mail.php:34
 msgid "Slow down cowboy, no need to check for new mails so often!"
-msgstr "Shoshilmang, yangi xabarlarni bunchalik tez-tez tekshiraverish yaramaydi!"
+msgstr "Шошилманг деҳқон, янги хабарларни бунчалик тез-тез текширавериш шарт эмас!"
 
 #: wp-mail.php:54
 msgid "There doesn&#8217;t seem to be any new mail."
-msgstr "Yangi xabar yo'q."
+msgstr "Янги хабар йўқ."
 
 #: wp-mail.php:122
 msgid "Author is %s"
-msgstr "Muallifi %s"
+msgstr "Муаллифи %s"
 
 #. translators: %s: POP3 error
 #: wp-mail.php:232
 msgid "Oops: %s"
-msgstr "Ana xolos: %s"
+msgstr "Вой: %s"
 
 #: wp-signup.php:166
 msgid "Privacy:"
-msgstr "Mahfiy:"
+msgstr "Махфийлик:"
 
 #: wp-signup.php:222
 msgid "(Must be at least 4 characters, letters and numbers only.)"
-msgstr "(4 tadan kam belgi bo'lmasligi shart, faqat harf va son ishlatilishi mumkin)"
+msgstr "(Камида 4 белгидан иборат бўлиши, фақат ҳарф ёки сон ишлатилиш мумкин)"
 
 #: wp-signup.php:225
 msgid "Email&nbsp;Address:"
-msgstr "Email&nbsp;Adres:"
+msgstr "Электрон почта манзили:"
 
 #: wp-signup.php:299
 msgid "There was a problem, please correct the form below and try again."
-msgstr "Xatolik sodir bo'ldi, iltimos, quyidagi formani to'g'irlab, takror urinib ko'ring."
+msgstr "Хатолик юз берди, илтимос, қуйидаги формани тўғирлаб қайтадан уриниб кўринг."
 
 #: wp-signup.php:516
 msgid "Get your own %s account in seconds"
@@ -7903,7 +7901,7 @@ msgstr "Ҳеч бири"
 #: wp-includes/taxonomy.php:2984 wp-includes/taxonomy.php:3121
 #: wp-includes/taxonomy.php:3317
 msgid "Invalid taxonomy"
-msgstr "Номақбул тизимлаш"
+msgstr "Яроқсиз тасниф"
 
 #: wp-includes/taxonomy.php:602
 msgid "Edit Tag"
@@ -7940,7 +7938,7 @@ msgstr "RSS"
 
 #: wp-includes/functions.php:2115
 msgid "Invalid file type"
-msgstr "Номақбул файл тури"
+msgstr "Яроқсиз файл тури"
 
 #: wp-includes/class-wp-editor.php:927 wp-includes/media-template.php:1240
 msgid "Preview"
